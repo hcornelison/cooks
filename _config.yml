@@ -3,7 +3,7 @@ title: Recipes
 email: 
 description: The awesome recipe database
 start_url: "https://hcornelison.github.io/cooks"
-baseurl: ""
+baseurl: "https://hcornelison.github.io/cooks"
 language: "en"
 lang_direction: "ltr"
 twitter_username: 
