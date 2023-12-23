@@ -3,7 +3,7 @@ layout: recipe
 title: "Heath's Banana Nut Bread"
 author: Heath Cornelison
 image: banana-bread.png
-tags: breads
+tags: Breads
 
 yield: 1 loaf
 preparation_time: 15

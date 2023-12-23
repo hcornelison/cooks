@@ -2,8 +2,6 @@
 
 layout: tips
 title:  "Unit Conversions"
-image: 
-imagecredit: 
 
 ---
 
