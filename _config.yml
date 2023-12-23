@@ -1,7 +1,7 @@
 # Site settings
 title: Recipes
 email: 
-description: The awesome recipe database
+description: An amazing recipe database!
 start_url: "https://hcornelison.github.io/cooks"
 
 #comment out while debugging locally
@@ -11,8 +11,7 @@ baseurl: "https://hcornelison.github.io/cooks"
 #baseurl: "" 
 language: "en"
 lang_direction: "ltr"
-twitter_username: 
-github_username:  pipkickflip
+github_username:  hcornelison
 
 # Template colors used site-wide via css
 colors:
@@ -64,22 +63,4 @@ translation:
     notes: "Notes"
     yield: "Servings:"
     preptime: "Prep Time:"
-    cooktime: "Cooking Time:"
-  de:
-    components: "Komponenten"
-    ingredients: "Zutaten"
-    directions: "Zubereitung"
-    category: "Kategorie"
-    categories: "Kategories"
-    nutritional_information: "Nährwertangaben"
-    component_based: 'Dieses Rezept besteht aus <strong class="preffered-color">mehreren Komponenten</strong>.'
-    search: "Suche"
-    blog: "Blog"
-    subscribe: "Abonnieren"
-    home: "Home"
-    tips: "Tips"
-    theme: "Theme"
-    notes: "Notes"
-    yield: "Yield:"
-    preptime: "Preparation Time:"
     cooktime: "Cooking Time:"
