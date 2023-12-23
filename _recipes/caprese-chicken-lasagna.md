@@ -1,19 +1,14 @@
 ---
-title: "Caprese Chicken Lasagna"
-date: 2023-12-10
-draft: false
+layout: recipe
+title: Caprese Chicken Lasagna
 author: Lindsay Funston
-recipe_image: images/recipe-headers/caprese-lasagna.jpg
-tags: ["dinners"]
-tagline: "Caprese Chicken Lasagna"
-prep_time: 60 #in minutes #can be BLANK
-cook: true # If we are cooking this, leave true, if we are cooling set to false
-cook_increment: minutes # set to minutes or hours
-cook_time: 25 #in minutes #can be BLANK
+image: caprese-lasagna.jpg
+tags: Dinners
+preptime: 60 Minutes 
+cooktime: 25 Minutes
 calories: 800
----
 
-## Ingredients
+ingredients:
 - 1 Box lasagna noodles
 - 1 Tbsp extra-virgin olive oil
 - 2 Lbs boneless skinless chicken breasts, cut into 1 Inch pieces
@@ -33,7 +28,7 @@ calories: 800
 - Black pepper
 - Balsamic glaze
 
-## Directions
+directions:
 - In a pot of salted boiling water, cook lasagna noodles until very al dente, drain and set aside.
 - Prepare the chicken
     - In a large skillet over medium heat, heat olive oil. 
@@ -66,5 +61,7 @@ calories: 800
 - Turn oven to broil and cook for another 2 to 2 minutes, until lightly golden.
 - Finally, garnish the lasagna with and remaining basil and balsamic glaze before serving.
 
-## Notes
-Recipe came from https://www.delish.com/cooking/recipe-ideas/recipes/a51707/caprese-chicken-lasagna-recipe
+notes:
+- <a href="https://www.delish.com/cooking/recipe-ideas/recipes/a51707/caprese-chicken-lasagna-recipe">Original Recipe</a>
+
+---

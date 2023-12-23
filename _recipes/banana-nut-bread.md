@@ -1,13 +1,12 @@
 ---
 layout: recipe
-title: "Heath's Banana Nut Bread"
-author: Heath Cornelison
+title: Heath's Banana Nut Bread
 image: banana-bread.png
 tags: Breads
 
 yield: 1 loaf
-preparation_time: 15
-cooking_time: 55
+preptime: 15 Minutes
+cooktime: 55 Minutes
 
 ingredients:
 - 3 overly ripe bananas
