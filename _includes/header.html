@@ -1,0 +1,9 @@
+<nav class="menu" role="navigation">    
+    <ul id="menu">
+      <a href="{{ site.baseurl }}/"><li><i class="fa fa-home fa-lg"></i> {{ site.translation[site.language].home }}</li></a>
+      <a href="{{ "/search" | prepend: site.baseurl}}"><li><i class="fa fa-search fa-lg"></i> {{ site.translation[site.language].search }}</li></a>
+      <a href="{{ "/categories" | prepend: site.baseurl}}"><li><i class="fa fa-tags fa-lg"></i> {{ site.translation[site.language].categories }}</li></a>
+      <a href="{{ "/tips" | prepend: site.baseurl}}"><li><i class="fa fa-info-circle fa-lg"></i> {{ site.translation[site.language].tips }}</li></a>
+      <a href="" id="theme-toggle" onclick="modeSwitcher()"><li><i class="fa fa-adjust fa-lg"></i> {{ site.translation[site.language].theme }}</li></a>
+    </ul>
+</nav>

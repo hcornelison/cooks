@@ -1,0 +1,80 @@
+# Site settings
+title: Recipes
+email: 
+description: The awesome recipe database
+start_url: "https://hcornelison.github.io/cooks"
+baseurl: ""
+language: "en"
+lang_direction: "ltr"
+twitter_username: 
+github_username:  pipkickflip
+
+# Template colors used site-wide via css
+colors:
+  dark-mode:
+    background-color: "#2D2727"
+    primary-text-color: "#fff"
+    secondary-text-color: "#e9cdef"
+    link-color: "#f7f396"
+    menu-color: "#513356"
+    accent-color: "#43573f"
+  light-mode:
+    background-color: "#f6efec"
+    primary-text-color: "#000"
+    secondary-text-color: "#714e79"
+    link-color: "#418362"
+    menu-color: "#c7a8cc"
+    accent-color: "#cad5c8"
+
+# Build settings
+markdown: kramdown
+
+permalink: /:title:output_ext
+
+collections:
+  components:
+    output: true
+  recipes:
+    output: true
+  tips:
+    output: true
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+translation:
+  en:
+    components: "Components"
+    ingredients: "Ingredients"
+    directions: "Directions"
+    category: "Category"
+    categories: "Categories"
+    nutritional_information: "Nutritional Information"
+    component_based: 'This is a <strong class="preffered-color">component-based recipe</strong>.'
+    search: "Search"
+    blog: "Blog"
+    subscribe: "Subscribe"
+    home: "Home"
+    tips: "Tips"
+    theme: "Theme"
+    notes: "Notes"
+    yield: "Servings:"
+    preptime: "Prep Time:"
+    cooktime: "Cooking Time:"
+  de:
+    components: "Komponenten"
+    ingredients: "Zutaten"
+    directions: "Zubereitung"
+    category: "Kategorie"
+    categories: "Kategories"
+    nutritional_information: "Nährwertangaben"
+    component_based: 'Dieses Rezept besteht aus <strong class="preffered-color">mehreren Komponenten</strong>.'
+    search: "Suche"
+    blog: "Blog"
+    subscribe: "Abonnieren"
+    home: "Home"
+    tips: "Tips"
+    theme: "Theme"
+    notes: "Notes"
+    yield: "Yield:"
+    preptime: "Preparation Time:"
+    cooktime: "Cooking Time:"

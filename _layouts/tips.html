@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<!-- call up the image and image credit link -->
+  {% for image in page.image %}
+  <div class="xs-p2">
+    <img itemprop="image" src="{{site.baseurl}}/images/{{ image }}" />
+    {% if page.imagecredit %}
+      {% for imagecredit in page.imagecredit %}
+        <a href="{{ imagecredit }}" class="right">
+          <svg class="js-geomicon geomicon" width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><title>camera icon</title><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
+        </a>
+      {% endfor %}
+    {% endif %}
+  </div>
+  {% endfor %}
+
+<article class="post-content px2">
+
+<!-- call up the main recipe title and content -->
+  <header class="post-header">
+    <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ page.title }}</h1>
+  </header>
+
+  <div class="px2 mt3 clearfix">
+    <div class="sm-col-8 mx-auto" itemprop="description">{{page.content}}</div>
+  </div>
+
+  
+
+  </article>
+
+</div>
+
+<script type="text/javascript">
+
+  $( document ).ready(function() {
+
+  jQuery.fn.clickToggle = function(a,b) {
+  var ab=[b,a];
+  function cb(){ ab[this._tog^=1].call(this); }
+  return this.on("click", cb);
+  };
+
+  $(".container ul li").append('<input type="checkbox">');
+  $(".container ul li").clickToggle(function(){
+    $(this).children("input").prop('checked', true);
+    var height = $(this).height();
+    var y = $(window).scrollTop();
+    $('html, body').animate({scrollTop: y+height+16}, 200);
+  }, function(){
+    $(this).children("input").prop('checked', false);
+    var height = $(this).height();
+    var y = $(window).scrollTop();
+    $('html, body').animate({scrollTop: y-height-16}, 200);
+  });
+
+  });
+  
+</script>

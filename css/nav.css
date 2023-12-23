@@ -1,0 +1,57 @@
+nav {
+    z-index: 99;
+    top: 0px;
+    position: sticky;
+}
+  
+#menu {
+    display: inline-flex;
+    font-size: 1rem;
+    background-color: var(--menu-color);
+    width:100%;
+    padding: 2px 0;
+}
+
+@media (min-width: 30px) {
+    #menu {
+        font-size: 1.2rem;
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 450px) {
+    #menu {
+        font-size: 1.4rem;
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 550px) {
+    #menu {
+        font-size: 1.5rem;
+        padding: 10px 0;
+    }
+}
+
+#menu a {
+    color: var(--primary-text-color-);
+    text-align: center;
+    padding: 0;
+}
+
+@media (min-width: 240px) {
+    #menu a {
+        padding: 0 2%;
+    }
+}
+
+@media (min-width: 450px) {
+    #menu a {
+        padding: 0 1rem;
+    }
+}
+
+#menu li {
+    padding: 0;
+    position: relative;
+}

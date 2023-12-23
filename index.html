@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<div class="home"> 
+
+  <div class="recipes xs-px2 xs-mt2">
+    <div class="clearfix">
+    {% assign sorted = site.recipes | sort:"date" %}
+    {% for post in sorted %}
+
+      <div class="xs-col sm-col xs-col-6 sm-col-4 md-col-4 lg-col-3 xl-col-2 xs-px1 xs-mb2">
+          <a class="block relative bg-preffered" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="image ratio bg-cover"{% for image in post.image %} style="background-image:url({{site.baseurl}}/images/{{ image }});"{% endfor %}></div>
+            <h1 class="title p1 m0 absolute bold white-contrast bottom-0 left-0">{{ post.title }}</h1>
+          </a>
+      </div>
+    {% endfor %}
+  </div>
+  </div>
+  
+  <div class="sell bg-preffered-tile mt4">
+    <div class="clearfix px2">
+      <div class="sm-col md-col-6 px2 md-px4 py2 md-py4">
+        <h1>Abbreviation Quick Reference</h1>
+        <p>tbsp - tablespoon</p>
+        <p>tsp - teaspoon</p>
+        <p>oz - ounce</p>
+        <p>fl oz - fluid ounce</p>
+        <p>lb - pound</p>
+        <p></p>
+      </div>
+      <div class="sm-col md-col-6 px2 md-px4 py2 md-py4">
+        <h1>Measurement Conversions</h1>
+        <p>1 Tbsp = 15 mL or 3 tsp</p>
+        <p>1 tsp = 5 mL</p>
+        <p>1 fl oz = 6 tsp or 2 Tbsp or 30 mL</p>
+        <p>1 Cup = 48 tsp or 16 tbsp or 8 fl oz</p>
+        <p>1 Pint = 2 Cups or 16 fl oz</p>
+        <p>1 Quart = 4 Cups or 2 Pints or 32 fl oz</p>
+        <p>1 Gallon = 4 Quarts or 128 fl oz</p>
+        <p><a href="/tips/unit-conversions">More</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mt4 mb4">
+    <div class="sm-col-6 mx-auto px3 sm-px4">
+      <p>Hey all!</p>
+      <p>This is my personal collection of recipes that I have been compiling over the years, with help from friends and family. Not all of these recipes are original, and the recipes from other sites are ones that I pulled so I could make notes on them and keep them together with my collection! I have tried almost all of these recipes myself, and I will keep updating the recipes as I make notes on what makes the recipes better! Please enjoy the collection!</p>
+      <p class="right-align">- Piper</p>
+      <div class="clearfix link center">
+        <a href="https://github.com/pipkickflip/recipes" class="button button-big button-with-icon button-outline mt3 h3">
+          <svg class="js-geomicon geomicon" width="30" data-icon="github" viewBox="0 0 32 32" style="fill:currentcolor"><title>github icon</title><path d="M0 18 C0 12 3 10 3 9 C2.5 7 2.5 4 3 3 C6 3 9 5 10 6 C12 5 14 5 16 5 C18 5 20 5 22 6 C23 5 26 3 29 3 C29.5 4 29.5 7 29 9 C29 10 32 12 32 18 C32 25 30 30 16 30 C2 30 0 25 0 18 M3 20 C3 24 4 28 16 28 C28 28 29 24 29 20 C29 16 28 14 16 14 C4 14 3 16 3 20 M8 21 A1.5 2.5 0 0 0 13 21 A1.5 2.5 0 0 0 8 21 M24 21 A1.5 2.5 0 0 0 19 21 A1.5 2.5 0 0 0 24 21 z"></path></svg>
+        View on GitHub</a>
+      </div>
+    </div>
+  </div>
+
+</div>

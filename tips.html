@@ -1,0 +1,23 @@
+---
+layout: default
+title: Tips For Food Prep
+---
+
+<h2 class="ml4 preffered-color">Tips</h2>
+<div id="tips">
+  <h3 class="ml4">Quick Tips</h3>
+  <ul class="ml4">
+    <li><p>Buttermilk is just sour milk.</p></li>
+    <li><p>If you have trouble making box cake mixes, add an extra egg.</p></li>
+    <li><p>Add some sour cream to pancakes to make them more fluffy.</p></li>
+    <li><p>Put your onions in the fridge to help prevent crying while slicing it.</p></li>
+  </ul>
+</div>
+<div id="tags">
+  <h3 class="ml4">Lengthy Tips</h3>
+  <ul class="ml4">
+    {% for tip in site.tips %}
+        <li><a href="{{ site.baseurl }}{{ tip.url }}">{{ tip.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
