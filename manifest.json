@@ -21,6 +21,6 @@ layout: none
     ],
     "theme_color": "{{ site.colors.tile-color }}",
     "background_color": "{{ site.colors.primary-bg-color }}",
-    "start_url": "site.start_url",
+    "start_url": "",
     "display": "standalone"
 }
