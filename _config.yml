@@ -2,7 +2,7 @@
 title: Recipes
 email: 
 description: An amazing recipe database!
-start_url: "https://hcornelison.github.io/cooks"
+start_url: "https://hcornelison.github.io/cooks/index.html"
 
 #comment out while debugging locally
 baseurl: "https://hcornelison.github.io/cooks"
