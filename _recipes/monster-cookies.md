@@ -16,7 +16,7 @@ ingredients:
 - 1 1/4 Cup AP Flour
 - 3/4 Cup Creamy Peanut Butter
 - 1/2 Cup Quick Oats
-- 3/4 Cup M&Ms
+- 3/4 Cup M & M's
 - 1/2 Cup Semi-Sweet Chocolate Chips
 - 1 Egg
 - 1 Tsp Vanilla
@@ -29,7 +29,7 @@ directions:
 - In a large bowl, cream Butter and all Sugars together
 - Mix in Peanut Butter, Egg and Vanilla in that order.
 - In a separate bowl, mix Baking Soda, Salt and Flour. Slowly mix this into the Butter mixture.
-- Fold in Oats, M&Ms and Chocolate Chips.
+- Fold in Oats, M & M's and Chocolate Chips.
 - Chill the dough for 30 minutes.
 - Roll balls of dough, about 2 Tbsp in size.
 - Press a few extra M&Ms on top of each cookie.
