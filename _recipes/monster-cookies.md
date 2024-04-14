@@ -5,8 +5,8 @@ image: monster-cookies.jpg
 tags: Cookies
 
 yield: 24 Cookies
-preptime: 15 Minutes
-cooktime: 55 Minutes
+preptime: 60 Minutes
+cooktime: 10-12 Minutes
 
 ingredients:
 - 1/2 Cup Butter
