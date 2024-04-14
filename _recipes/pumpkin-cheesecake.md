@@ -3,7 +3,8 @@ layout: recipe
 title: Pumpkin Cheesecake
 author: Diana Long
 image: pumpkin-cheesecake.png
-tags: Dessert
+tags: Dessert, Cake
+category: Dessert, Cake
 
 yield: 12
 preptime: 40 Minutes

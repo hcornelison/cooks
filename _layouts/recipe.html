@@ -231,14 +231,8 @@ layout: default
   $(".container ul li").append('<input type="checkbox">');
   $(".container ul li").clickToggle(function(){
     $(this).children("input").prop('checked', true);
-    //var height = $(this).height();
-    //var y = $(window).scrollTop();
-    //$('html, body').animate({scrollTop: y+height+16}, 200);
   }, function(){
     $(this).children("input").prop('checked', false);
-    //var height = $(this).height();
-    //var y = $(window).scrollTop();
-    //$('html, body').animate({scrollTop: y-height-16}, 200);
   });
 
   });
@@ -301,4 +295,3 @@ layout: default
 </script>
 
 <script src="{{ site.baseurl }}/js/scale_recipes.js"></script>
-<!-- Thank you to https://github.com/PhilipNelson5 for the awesome script! -->

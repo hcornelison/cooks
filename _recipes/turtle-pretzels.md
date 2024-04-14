@@ -3,6 +3,7 @@ layout: recipe
 title: Turtle Pretzels
 image: turle-pretzels.png
 tags: Dessert
+category: Dessert
 preptime: 15 Minutes
 cooktime: 4 Minutes
 

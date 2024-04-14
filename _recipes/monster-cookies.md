@@ -2,7 +2,8 @@
 layout: recipe
 title: Monster Cookies
 image: monster-cookies.jpg
-tags: Cookies
+tags: Dessert, Cookies
+category: Dessert, Cookies
 
 yield: 24 Cookies
 preptime: 60 Minutes

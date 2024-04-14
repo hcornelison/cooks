@@ -25,22 +25,3 @@ title: Recipes Listed By Tag
     </ul>
   {% endfor %}
 </div>
-<!--
-<h2 class="ml4 preffered-color">Components</h2>
-<div id="tags">
-  {% for tag in components_tags %}
-    {% if tag == '' %}
-      {% continue %}
-    {% endif %}
-    <h3 class="ml4">{{ tag }}</h3>
-    <ul class="ml4">
-      {% for component in sorted_components %}
-        {% assign tags_array = component.tags | join: ',' | split: ',' %}
-        {% if tags_array contains tag %}
-          <li><a href="{{ site.baseurl }}{{ component.url }}">{{ component.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  {% endfor %}
-</div>
--->

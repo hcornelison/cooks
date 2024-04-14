@@ -3,6 +3,7 @@ layout: recipe
 title: Heath's Banana Nut Bread
 image: banana-bread.png
 tags: Breads
+category: Breads
 
 yield: 1 loaf
 preptime: 15 Minutes

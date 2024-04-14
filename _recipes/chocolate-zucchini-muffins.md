@@ -4,6 +4,7 @@ title: Chocolate Zucchini Muffins
 author: Julie Evink
 image: chocolate-zucchini-muffins.jpg
 tags: Breakfast
+category: Breakfast
 
 yield: 18 Muffins
 preptime: 15 Minutes

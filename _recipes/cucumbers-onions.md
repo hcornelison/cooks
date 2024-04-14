@@ -3,6 +3,7 @@ layout: recipe
 title: Cucumbers and Onions
 image: cucumbers.png
 tags: Snack
+category: Snack
 prep_time: 10 Minutes
 
 ingredients:

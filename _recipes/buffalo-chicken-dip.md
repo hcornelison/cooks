@@ -3,6 +3,7 @@ layout: recipe
 title: "Buffalo Chicken Dip"
 image: buffalo-chicken-dip.png
 tags: Appetizers
+category: Appetizers
 
 preptime: 5 Minutes
 cooktime: 15 Minutes

@@ -4,9 +4,9 @@ title: Caprese Chicken Lasagna
 author: Lindsay Funston
 image: caprese-lasagna.jpg
 tags: Dinners
+category: Dinners
 preptime: 60 Minutes 
 cooktime: 25 Minutes
-calories: 800
 
 ingredients:
 - 1 Box lasagna noodles
