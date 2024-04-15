@@ -3,8 +3,8 @@ layout: recipe
 title: Grape Jelly Meatballs
 author: Valentina Ablaev
 image: meatball.jpg
-tags: Appetizer
-category: Appetizer
+tags: Appetizers
+category: Appetizers
 preptime: 5 Minutes
 cooktime: 180 Minutes
 

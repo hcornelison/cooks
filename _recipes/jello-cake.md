@@ -2,8 +2,8 @@
 layout: recipe
 title: Jello Cake
 image: jello-cake.jpg
-tags: Dessert, Cake
-category: Dessert, Cake
+tags: Dessert, Cakes
+category: Dessert, Cakes
 yield: 1 Cake
 preptime: 30 Minutes
 
