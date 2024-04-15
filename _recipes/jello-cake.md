@@ -5,8 +5,7 @@ image: jello-cake.jpg
 tags: Dessert, Cake
 category: Dessert, Cake
 yield: 1 Cake
-preptime: 60 Minutes
-cooktime: 10-12 Minutes
+preptime: 30 Minutes
 
 ingredients:
 - 1 Small Box of Strawberry Jello
