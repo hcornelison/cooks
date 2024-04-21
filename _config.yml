@@ -18,10 +18,10 @@ colors:
   dark-mode:
     background-color: "#2D2727"
     primary-text-color: "#fff"
-    secondary-text-color: "#e9cdef"
-    link-color: "#f7f396"
-    menu-color: "#513356"
-    accent-color: "#43573f"
+    secondary-text-color: "#fff"
+    link-color: "#ff851b"
+    menu-color: "#181616"
+    accent-color: "#3e3535"
   light-mode:
     background-color: "#f6efec"
     primary-text-color: "#000"
