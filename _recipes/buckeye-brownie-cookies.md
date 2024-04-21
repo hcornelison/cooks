@@ -2,10 +2,9 @@
 layout: recipe
 title: Buckeye Brownie Cookies
 image: buckeye-brownie-cookies.jpg
-imagecredit: https://www.tastesoflizzyt.com/buckeye-brownie-cookies/
+imagecredit: https://www.tastesoflizzyt.com/buckeye-brownie-cookies
 tags: Dessert, Cookies
 category: Dessert, Cookies
-
 yield: 24 Cookies
 preptime: 30 Minutes
 cooktime: 12 Minutes
@@ -31,6 +30,6 @@ directions:
 - Melt the chocolate chips in the microwave. Spoon a small amount on top of each cookie so it covers the peanut butter ball.
 
 notes:
-Original recipe came from here - https://www.tastesoflizzyt.com/buckeye-brownie-cookies/
+- Original recipe came from here - https://www.tastesoflizzyt.com/buckeye-brownie-cookies
 
 ---
