@@ -2,6 +2,7 @@
 layout: recipe
 title: Pinwheels
 image: pinwheels.jpg
+imagecredit: https://www.motherthyme.com/2018/08/ham-and-cheese-pinwheels.html
 tags: Appetizers
 category: Appetizers
 
