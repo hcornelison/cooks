@@ -5,7 +5,7 @@ image: banana-bread.png
 tags: Breads
 category: Breads
 
-yield: 1 loaf
+yield: 1 9 x 5 loaf
 preptime: 15 Minutes
 cooktime: 55 Minutes
 
@@ -22,10 +22,10 @@ ingredients:
 
 directions:
 - Preheat oven to 350 degrees. 
-- Spray the bottom of your loaf pan.
+- Spray the bottom of your 9 x 5 inch loaf pan.
 - In a bowl, mash the bananas and then stir in the melted butter.
 - Stir in all of the remaining ingredients. 
-- Pour batter into the loaf pan.
+- Pour batter into the loaf pan. The batter will be thick, that is ok.
 - Bake for 55 minutes or so. Toothpick must come out clean from the center.
 
 notes:
