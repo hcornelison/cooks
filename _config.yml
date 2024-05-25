@@ -2,10 +2,10 @@
 title: Recipes
 email: 
 description: An amazing recipe database!
-start_url: "https://hcornelison.dev/cooks/index.html"
+start_url: "http://hcornelison.dev/cooks/index.html"
 
 #comment out while debugging locally
-baseurl: "https://hcornelison.dev/cooks"
+baseurl: "http://hcornelison.dev/cooks"
 
 #uncomment for local debugging!
 #baseurl: "" 
