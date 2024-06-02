@@ -58,7 +58,6 @@ ul li input{position: absolute; top:5px; left:0; opacity:0.5;}
 
 .search input{border-radius:5px; border:2px solid var(--primary-text-color); box-shadow:0 0 14px rgba(var(--accent-color),0.1); width:100%; padding:1.5rem; background-color:var(--background-color); color:var(--primary-text-color)}
 .search input:focus{outline:none; border:2px solid var(--accent-color);}
-.search{transition:.3s ease height; height:90vh; display:flex; flex-direction: column; justify-content:center;}
 .search input::placeholder{color:lightgrey;}
 
 .hero{height:150px;}
