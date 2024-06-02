@@ -97,7 +97,7 @@ layout: default
           <option value=5>5</option>
         </select>
       </div>
-      <ul itemprop="ingredients">
+      <ul itemprop="ingredients" style="margin: 10px;">
         <!-- list ingredients that make up recipe -->
         {% for ingredient in page.ingredients %}
         <li itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
