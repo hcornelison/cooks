@@ -8,7 +8,7 @@ yield: 1 Cake
 preptime: 30 Minutes
 
 ingredients:
-- Cake Ingredients Start
+- Cake:
 - 2 Cups AP flour
 - 2 Cups Sugar
 - 1 Cup Water
@@ -18,15 +18,14 @@ ingredients:
 - 1/4 Teaspoon Salt
 - 1/2 Plain Greek Yogurt
 - 1 1/2 teaspoons almond extract
-
-- Frosting Ingredients Start
+- Frosting:
 - 6 Tablespoons Milk
 - 1/2 Cup Salted Butter
 - 3 3/4 Cups Powdered Sugar
 - 1 Teaspoon Almond Extract
 
 directions:
-- Cake Instructions Start
+- Cake:
 - Preheat oven to 350 degrees.
 - Grease a 13x18 Sheet pan.
 - In one bowl, mix Flour, 2 Cups sugar, baking soda and salt. 
@@ -37,7 +36,7 @@ directions:
 - Bake for 17-20 minutes or until a toothpick inserted comes out clean. 
 - When the cake is about 5 minutes away from being done cooking, prepare the frosting.
 
-- Frosting Instructions Start
+- Frosting:
 - Add milk and 1/2 Cup of butter to a saucepan, bring to a boil.
 - Remove from heat and stir in powdered sugar and 1 Teaspoon of almond extract. 
 - Pour warm icing over warm cake and spread evenly. 
