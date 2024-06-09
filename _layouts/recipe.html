@@ -104,26 +104,9 @@ layout: default
   </div>
 <!-- end recipe and directions -->
 
-<!-- check if there are notes -->
-{% if page.notes %}
-<div class=" mt3 clearfix">
-    <div class="sm-col sm-col-12 lg-col-12">
-    <h3 class="preffered-color mt0 mb2 xs-center">{{ site.translation[site.language].notes }}</h3>
-    <ul itemprop="notes">
-      {% for note in page.notes %}
-      <li>{{ note | markdownify }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-{% endif %}
-<!-- end notes -->
-
-<!-- check if it's a component-based recipe, render it -->
-  {% if page.components %}
-
+{% if page.components %}
   <div class="components bg-darken-2 p2 mt3 mb3 center">
-    &darr; {{ site.translation[site.language].component_based }} &darr;
+    &#8681; {{ site.translation[site.language].component_based }} &#8681;
   </div>
 
   <div class="clearfix mxn2 page-break-before">
@@ -177,15 +160,25 @@ layout: default
   {% endfor %}
   </div>
 
-  {% endif %}
-<!-- end components -->
+  {% if page.notes %}
+  <div class=" mt2 clearfix">
+      <div class="sm-col sm-col-12 lg-col-12">
+      <h3 class="preffered-color mt0 mb2 xs-center">{{ site.translation[site.language].notes }}</h3>
+      <ul itemprop="notes">
+        {% for note in page.notes %}
+        <li>{{ note | markdownify }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endif %}
 
+  {% endif %}
   {% for category in page.categories %}
     <p class="clearfix">{{ site.translation[site.language].category }}: <span itemprop="recipeCategory">{{ category }}</span></p>
   {% endfor %}
 
   </article>
-
 </div>
 
 <script type="text/javascript">
@@ -206,7 +199,6 @@ layout: default
   });
 
   });
-
 
 </script>
 

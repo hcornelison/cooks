@@ -53,7 +53,7 @@ translation:
     category: "Category"
     categories: "Categories"
     nutritional_information: "Nutritional Information"
-    component_based: 'This is a <strong class="preffered-color">component-based recipe</strong>.'
+    component_based: '<strong class="preffered-color">This is a component-based recipe</strong>'
     search: "Search"
     blog: "Blog"
     subscribe: "Subscribe"
