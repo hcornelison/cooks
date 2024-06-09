@@ -2,8 +2,6 @@
 layout: default
 ---
 <div class="container" itemscope itemtype="http://schema.org/Recipe">
-
-<!-- call up the image and image credit link -->
   {% for image in page.image %}
   <div class="no-print xs-p2">
     <img itemprop="image" src="{{site.baseurl}}/images/{{ image }}" />
@@ -12,6 +10,13 @@ layout: default
         <a href="{{ imagecredit }}" class="right">
           <svg class="js-geomicon geomicon" width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><title>camera icon</title><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
         </a>
+        <div class="px3">
+          <a onclick="window.print();" class="no-print right">
+            <svg class="js-geomicon geomicon" width="14" height="14" data-icon="print" viewBox="0 0 8 8" style="fill:currentcolor"><title>print icon</title>
+              <path d="M2 0v2h4v-2h-4zm-1.91 3c-.06 0-.09.04-.09.09v2.81c0 .05.04.09.09.09h.91v-2h6v2h.91c.05 0 .09-.04.09-.09v-2.81c0-.06-.04-.09-.09-.09h-7.81zm1.91 2v3h4v-3h-4z" />
+            </svg>
+          </a>
+        </div>
       {% endfor %}
     {% endif %}
   </div>
@@ -19,55 +24,42 @@ layout: default
 
 <article class="post-content px2">
 
-<!-- call up the main recipe title and content -->
   <header class="post-header">
     <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ page.title }}</h1>
   </header>
-
-  <!-- print page button -->
-  <a onclick="window.print();" class="no-print right">
-    <svg class="js-geomicon geomicon" width="14" height="14" data-icon="print" viewBox="0 0 8 8" style="fill:currentcolor"><title>print icon</title>
-      <path d="M2 0v2h4v-2h-4zm-1.91 3c-.06 0-.09.04-.09.09v2.81c0 .05.04.09.09.09h.91v-2h6v2h.91c.05 0 .09-.04.09-.09v-2.81c0-.06-.04-.09-.09-.09h-7.81zm1.91 2v3h4v-3h-4z" />
-    </svg>
-  </a>
-
-  <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 mx-auto center" itemprop="description">{{page.content}}</div>
-  </div>
 
   <div class="mt3 clearfix">
     <div class="sm-col sm-col-12 lg-col-12">
       {% include nutritional-information.html %}
     </div>
   </div>
-
-  <!-- list yield, prep time, and cook time-->
-  <div class="clearfix mt2">
-    <div class="sm-col sm-col-4 lg-col-4">
-      {% if page.yield %}
-        <div class="mt0 mb1 xs-center" itemprop="yield">
-          <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].yield }}</h4>
-          <p class="inline" itemprop="recipeIngredient">{{page.yield}}</p>
-        </div>
-      {% endif %}
+    <!-- list yield, prep time, and cook time-->
+    <div class="clearfix" style="display:flex; justify-content: center;">
+      <div class="sm-col">
+        {% if page.yield %}
+          <div class="mt0 mb1 bg-darken-2 p1 center" itemprop="yield">
+            <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].yield }}</h4>
+            <p class="inline" itemprop="recipeIngredient">{{page.yield}}</p>
+          </div>
+        {% endif %}
+      </div>
+      <div class="sm-col">
+        {% if page.preptime %}
+          <div class="mt0 mb1 bg-darken-2 p1 center" itemprop="preptime">
+            <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].preptime }}</h4>
+            <p class="inline">{{page.preptime}}</p>
+          </div>
+        {% endif %}
+      </div>
+      <div class="sm-col">
+        {% if page.cooktime %}
+          <div class="mt0 mb2 bg-darken-2 p1 center" itemprop="cooktime">
+            <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].cooktime }}</h4>
+            <p class="inline">{{page.cooktime}}</p>
+          </div>
+        {% endif %}
+      </div>
     </div>
-    <div class="sm-col sm-col-4 lg-col-4">
-      {% if page.preptime %}
-        <div class="mt0 mb1 xs-center" itemprop="preptime">
-          <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].preptime }}</h4>
-          <p class="inline">{{page.preptime}}</p>
-        </div>
-      {% endif %}
-    </div>
-    <div class="sm-col sm-col-4 lg-col-4">
-      {% if page.cooktime %}
-        <div class="mt0 mb2 xs-center" itemprop="cooktime">
-          <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].cooktime }}</h4>
-          <p class="inline">{{page.cooktime}}</p>
-        </div>
-      {% endif %}
-    </div>
-  </div>
 
   <!-- call up recipe and directions -->
   <div class="clearfix mt1">
@@ -137,27 +129,21 @@ layout: default
 <!-- check if it's a component-based recipe, render it -->
   {% if page.components %}
 
-  <div class="components bg-darken-2 p2 mt3 mb2 center">
-    <div>&darr; {{ site.translation[site.language].component_based }} &darr;</div>
-    <ul>
-    {% for component in page.components %}
-      {% for recipe in site.recipes %}
-        {% if recipe.title == component %}
-          <li><p>{{recipe.title}}</p></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    </ul>
+  <div class="components bg-darken-2 p2 mt3 mb3 center">
+    &darr; {{ site.translation[site.language].component_based }} &darr;
   </div>
 
   <div class="clearfix mxn2 page-break-before">
   {% for component in page.components %}
-    <div class="sm-col-alt sm-col-12 px2 mb3 bg-lighten-2">
-    {% for recipe in site.recipes %}
+    <div class="sm-col sm-col-4 px2">
+    {% for recipe in site.components %}
     {% if recipe.title == component %}
+      <h3 class="preffered-color mt0 mb2 center">{{recipe.title}}</h3>
 
       {% for image in recipe.image %}
-      <img itemprop="image" src="{{site.baseurl}}/images/{{ image }}" />
+      <div class="image ratio bg-cover" style="background-image:url({{site.baseurl}}/images/{{ image }});">
+        <img class="hide" itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
+      </div>
         {% if recipe.imagecredit %}
           {% for imagecredit in recipe.imagecredit %}
             <a href="{{ imagecredit }}" class="right">
@@ -166,40 +152,31 @@ layout: default
           {% endfor %}
         {% endif %}
       {% endfor %}
-      <h1 class="post-title center m1 sm-mt3">{{recipe.title}}</h1>
 
-      <div class="px2 mt3 clearfix">
-        <div class="sm-col-8 mx-auto center" itemprop="description">{{ recipe.content | markdownify }}</div>
-      </div>
+      <h3 class="preffered-color mb2 xs-center">{{ site.translation[site.language].ingredients }}</h3>
+        <ul class="ingredients" itemprop="ingredients">
+        {% for item in recipe.ingredients %}
+        <li itemprop="ingredient">{{ item | markdownify }}</li>
+        {% endfor %}
+      </ul>
 
-      <div class="sm-col sm-col-6 lg-col-6">
-        <h3 class="preffered-color xs-center">{{ site.translation[site.language].ingredients }}</h3>
-          <ul class="ingredients" itemprop="ingredients">
-          {% for item in recipe.ingredients %}
-          <li itemprop="recipeIngredient">{{ item | markdownify }}</li>
-          {% endfor %}
-        </ul>
-      </div>
+      <h3 class="preffered-color mb2 xs-center">{{ site.translation[site.language].directions }}</h3>
+        <ul itemprop="instructions">
+        {% for item in recipe.directions %}
+        <li>{{ item | markdownify }}</li>
+        {% endfor %}
+      </ul>
 
-      <div class="sm-col sm-col-6 lg-col-6">
-        <h3 class="preffered-color xs-center">{{ site.translation[site.language].directions }}</h3>
-          <ul itemprop="instructions">
-          {% for item in recipe.directions %}
+      {% if recipe.notes %}
+      <div class="sm-col sm-col-12 lg-col-12">
+        <h3 class="preffered-color xs-center">{{ site.translation[site.language].notes }}</h3>
+        <ul itemprop="notes">
+          {% for item in recipe.notes %}
           <li>{{ item | markdownify }}</li>
           {% endfor %}
         </ul>
       </div>
-
-      {% if recipe.notes %}
-        <div class="sm-col sm-col-12 lg-col-12">
-          <h3 class="preffered-color xs-center">{{ site.translation[site.language].notes }}</h3>
-          <ul itemprop="notes">
-            {% for item in recipe.notes %}
-            <li>{{ item | markdownify }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endif %}
+    {% endif %}
 
     {% endif %}
     {% endfor %}
@@ -237,61 +214,7 @@ layout: default
 
   });
 
-  $('#edit').on('click', function() {
-    const path = "{{ page.path }}";
-    const title = "{{ page.title }}";
-    const image = "{{ page.image }}";
-    const servings = "{{ page.yield }}";
-    const preptime = "{{ page.preptime }}";
-    const cooktime = "{{ page.cooktime }}";
 
-    let tags = "";
-    {% for tag in page.tags %}
-      tags += "{{ tag }} ";
-    {% endfor %}
-
-    let ingredients = [];
-    {% for ingredient in page.ingredients %}
-      ingredients.push("{{ingredient}}");
-    {% endfor %}
-
-    let directions = [];
-    {% for direction in page.directions %}
-      directions.push("{{direction}}");
-    {% endfor %}
-
-    let components = [];
-    {% if page.components %}
-    {% for component in page.components %}
-      components.push("{{component}}");
-    {% endfor %}
-    {% endif %}
-
-    let notes = [];
-    {% for notes in page.notes %}
-    notes.push("{{note}}");
-    {% endfor %}
-
-    const description = $('div[itemprop="description"]').text();
-
-    const json = JSON.stringify({
-      path: path,
-      title: title,
-      image: image,
-      tags: tags,
-      servings: servings,
-      preptime: preptime,
-      cooktime: cooktime,
-      ingredients: ingredients,
-      directions: directions,
-      components: components,
-      notes: notes,
-      description: description,
-    });
-
-    localStorage.setItem("recipe", json);
-  });
-  
 </script>
 
 <script src="{{ site.baseurl }}/js/scale_recipes.js"></script>
