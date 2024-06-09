@@ -3,20 +3,13 @@ layout: default
 ---
 <div class="container" itemscope itemtype="http://schema.org/Recipe">
   {% for image in page.image %}
-  <div class="no-print xs-p2">
+  <div class="xs-p2">
     <img itemprop="image" src="{{site.baseurl}}/images/{{ image }}" />
     {% if page.imagecredit %}
       {% for imagecredit in page.imagecredit %}
         <a href="{{ imagecredit }}" class="right">
           <svg class="js-geomicon geomicon" width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><title>camera icon</title><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
         </a>
-        <div class="px3">
-          <a onclick="window.print();" class="no-print right">
-            <svg class="js-geomicon geomicon" width="14" height="14" data-icon="print" viewBox="0 0 8 8" style="fill:currentcolor"><title>print icon</title>
-              <path d="M2 0v2h4v-2h-4zm-1.91 3c-.06 0-.09.04-.09.09v2.81c0 .05.04.09.09.09h.91v-2h6v2h.91c.05 0 .09-.04.09-.09v-2.81c0-.06-.04-.09-.09-.09h-7.81zm1.91 2v3h4v-3h-4z" />
-            </svg>
-          </a>
-        </div>
       {% endfor %}
     {% endif %}
   </div>
