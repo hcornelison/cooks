@@ -5,8 +5,8 @@ author: Lindsay Funston
 image: caprese-lasagna.jpg
 tags: Dinners
 category: Dinners
-preptime: 60 Minutes 
-cooktime: 25 Minutes
+preptime: 90 Minutes 
+cooktime: 30 Minutes
 
 ingredients:
 - 1 Box lasagna noodles
@@ -29,36 +29,34 @@ ingredients:
 - Balsamic glaze
 
 directions:
+- Cut up chicken, basil and tomatoes and set aside.
 - In a pot of salted boiling water, cook lasagna noodles until very al dente, drain and set aside.
-- Prepare the chicken
-    - In a large skillet over medium heat, heat olive oil. 
-    - Season chicken with oregano, salt, and pepper. 
-    - Cook in a single layer, in batches if necessary, until golden and cooked through, 8 minutes. 
-    - Return all chicken to skillet, then add balsamic vinegar and half the garlic to pan and stir until balsamic is slightly thickened, around 1 minute. 
-    - Transfer to a plate and set aside.
-- Prepare the sauce
-    - Bring skillet back to medium heat and melt in butter. 
-    - Add remaining garlic and cook until fragrant, about 1 minute. 
-    - Add flour and cook until golden, about 1 minute more. 
-    - Gradually add in milk while whisking
-    - Simmer until thick and creamy, about 3 minutes. 
-    - Add parmesan and 1 Cup of mozzarella, stirring until melty. 
-    - Season with salt and pepper.
+- In a large skillet over medium heat, heat olive oil. 
+- Season chicken with oregano, salt, and pepper. 
+- Cook in a single layer, in batches if necessary, until golden and cooked through, 8 minutes. 
+- Return all chicken to skillet, then add balsamic vinegar and half the garlic to pan and stir until balsamic is slightly thickened, around 1 minute. 
+- Transfer to a plate and set aside.
+- Bring skillet back to medium heat and melt in butter. 
+- Add remaining garlic and cook until fragrant, about 1 minute. 
+- Add flour and cook until golden, about 1 minute more. 
+- Gradually add in milk while whisking
+- Bring to a simmer, and continue to simmer for 3 minutes. 
+- Add parmesan and 1 Cup of mozzarella, stirring until melty. 
+- Season with salt and pepper.
 - In a small bowl, stir together ricotta cheese and egg, season with salt and pepper, then set aside.
 - Preheat the oven to 375 Degrees.
-- Assemble
-    - In a large baking dish, spread a thin layer of sauce. 
-    - Add a layer of lasagna noodles, overlapping slightly
-    - Top with the following 
-        - Third of ricotta mixture
-        - Third of tomatoes
-        - Third of the basil
-        - Third of the chicken
-        - A layer of sauce
-        - Third of mozzarella. 
-    - Repeat for a total of three layers, ending with mozzarella.
+- In a large baking dish, spread a thin layer of sauce. 
+- Add a layer of lasagna noodles, overlapping slightly
+- Top with the following 
+- Third of ricotta mixture
+- Third of tomatoes
+- Third of the basil
+- Third of the chicken
+- A layer of sauce
+- Third of mozzarella
+- Repeat for a total of three layers, ending with mozzarella.
 - Bake until all of the cheese is melted, about 25 minutes.
-- Turn oven to broil and cook for another 2 to 2 minutes, until lightly golden.
+- Turn oven to broil and cook for another 2 to 4 minutes, until lightly golden.
 - Finally, garnish the lasagna with and remaining basil and balsamic glaze before serving.
 
 notes:
