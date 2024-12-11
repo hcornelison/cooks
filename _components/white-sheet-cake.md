@@ -10,7 +10,7 @@ ingredients:
 - 2 Eggs
 - 1 Teaspoon Baking Soda
 - 1/4 Teaspoon Salt
-- 1/2 Plain Greek Yogurt
+- 1/2 Cup Sour Cream or Plain Greek Yogurt
 - 1 1/2 teaspoons almond extract
 
 directions:
