@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title: White Texas Sheet Cake
+title: Sugar Cookie Sheet Cake
 image: white-sheet-cake.png
 tags: Dessert, Cakes
 category: Dessert, Cakes
