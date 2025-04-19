@@ -11,7 +11,7 @@ cooktime: 10-12 Minutes
 
 ingredients:
 - 1/2 Cup Butter
-- 1/2 Cup Brown Sugar
+- 1/2 Cup Light Brown Sugar
 - 1/4 Cup Sugar
 - 1 1/4 Cup AP Flour
 - 3/4 Cup Creamy Peanut Butter
