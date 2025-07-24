@@ -13,7 +13,7 @@ ingredients:
 - 1 12 Ounce Can Evaporated Milk
 - 1 14 Ounce Can Sweetened Condensed Milk
 - 4 Cups Whole Milk
-- 1 3.4 oz box Vanilla Instant Pudding
+- 1 3 to 4 oz box Vanilla Instant Pudding
 - 3/4 Cup sugar
 - 4 Tablespoons Vanilla Extract
 - 5 Butterfinger Bars crushed
