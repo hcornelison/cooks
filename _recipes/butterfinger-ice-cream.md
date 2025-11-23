@@ -10,13 +10,13 @@ preptime: 10 Minutes
 
 ingredients:
 - 1 Pint Heavy Cream
-- 1 12 Ounce Can Evaporated Milk
-- 1 14 Ounce Can Sweetened Condensed Milk
+- 12 ounce can Evaporated Milk
+- 14 ounce can Sweetened Condensed Milk
 - 4 Cups Whole Milk
-- 1 3 to 4 oz box Vanilla Instant Pudding
+- 1 3 to 4 ounce box Vanilla Instant Pudding
 - 3/4 Cup sugar
 - 4 Tablespoons Vanilla Extract
-- 5 Butterfinger Bars crushed
+- 5 Butterfinger Bars, crushed
 
 directions:
 - In a large bowl, whisk together Heavy Cream, Evaporated Milk, Sweetened Condensed Milk, Whole Milk, Pudding Mix, Sugar, and Vanilla.

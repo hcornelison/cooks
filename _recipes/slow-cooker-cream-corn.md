@@ -9,13 +9,13 @@ preptime: 10 Minutes
 cooktime: 3 Hours
 
 ingredients:
-- 3 cans of whole kernel corn, drained (15.25 oz cans)
-- 1 cup milk
-- 1 tablespoon sugar
-- 1/4 teaspoon pepper
-- salt to taste
-- 8 ounces cream cheese, cubed
-- 1/2 cup unsalted butter, cut into thin slices (1 stick of butter)
+- 3 cans Whole Kernel Corn, drained (15.25 ounce cans)
+- 1 Cup Milk
+- 1 Tablespoon Sugar
+- 1/4 teaspoon Pepper
+- Salt to taste
+- 8 ounces Cream Cheese, cubed
+- 1/2 Cup Unsalted Butter, cut into thin slices (1 stick of butter)
 
 directions:
 - Place all of the corn in a crock-pot.

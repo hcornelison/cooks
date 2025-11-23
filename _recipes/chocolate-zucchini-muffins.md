@@ -11,19 +11,19 @@ preptime: 15 Minutes
 cooktime: 25 Minutes
 
 ingredients:
-- 2 Cups AP flour
-- 1/2 Cup unsweetened cocoa powder
-- 1/4 Cup granulated sugar
-- 1/4 Cup light brown sugar
-- 2 Tsp baking powder
-- 1 Tsp baking soda
-- 1/2 Tsp salt
-- 1 Large egg
-- 5 Tbsp unsalted butter melted
-- 1 Tsp pure vanilla extract
-- 1 Cup skim milk
-- 3/4 Cup semisweet chocolate chips
-- 1 finely shredded zucchini on the small to medium size
+- 2 Cups All Purpose Flour
+- 1/2 Cup Unsweetened Cocoa Powder
+- 1/4 Cup Granulated Sugar
+- 1/4 Cup Light Brown Sugar
+- 2 teaspoons Baking Powder
+- 1 teaspoon Baking Soda
+- 1/2 teaspoon Salt
+- 1 Large Egg
+- 5 Tablespoons Unsalted Butter, melted
+- 1 teaspoon Pure Vanilla Extract
+- 1 Cup Skim Milk
+- 3/4 Cup Semisweet Chocolate Chips
+- 1 small to medium size zucchini, finely shredded
 
 directions:
 - Preheat oven to 375 degrees F. Spray a muffin tin with nonstick spray or line with muffin liners. Set aside.

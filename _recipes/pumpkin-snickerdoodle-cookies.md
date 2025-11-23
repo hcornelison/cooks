@@ -7,19 +7,19 @@ category: Dessert
 preptime: 30 Minutes
 
 ingredients:
-- 1 cup (2 sticks) unsalted butter, softened
-- 1 cup granulated sugar
-- 1/2 cup pumpkin puree (not pumpkin pie filling)
-- 1 large egg
-- 2 3/4 cups all-purpose flour
-- 2 teaspoons cream of tartar
-- 1 teaspoon baking soda
-- 1/2 teaspoon salt
-- 2 teaspoons ground cinnamon
-- 1 teaspoon ground ginger
-- 1/4 teaspoon ground nutmeg
-- 1/4 teaspoon ground cloves
-- For Rolling, 1/4 cup granulated sugar mixed with 2 teaspoons ground cinnamon
+- 1 Cup Unsalted Butter, softened (2 sticks)
+- 1 Cup Granulated Sugar
+- 1/2 Cup Pumpkin Puree (not pumpkin pie filling)
+- 1 large Egg
+- 2 3/4 Cups All Purpose Flour
+- 2 teaspoons Cream of Tartar
+- 1 teaspoon Baking Soda
+- 1/2 teaspoon Salt
+- 2 teaspoons Ground Cinnamon
+- 1 teaspoon Ground Ginger
+- 1/4 teaspoon Ground Nutmeg
+- 1/4 teaspoon Ground Cloves
+- For Rolling, 1/4 Cup Granulated Sugar mixed with 2 teaspoons Ground Cinnamon
 
 directions:
 - Preheat oven to 350 degrees.

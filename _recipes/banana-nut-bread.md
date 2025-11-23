@@ -10,15 +10,15 @@ preptime: 15 Minutes
 cooktime: 55 Minutes
 
 ingredients:
-- 3 overly ripe bananas
-- 1 1/2 Cups AP or whole wheat flour
-- 3/4 Cup of sugar
-- 1/3 Cup melted butter
-- 1/4 Cup of chopped walnuts
-- 1 egg
-- 1 Tsp vanilla
-- 1/2 Tsp baking soda
-- 1 Pinch of Salt
+- 3 overly ripe Bananas
+- 1 1/2 Cups All Purpose Flour
+- 3/4 Cup Sugar
+- 1/3 Cup Butter, melted
+- 1/4 Cup chopped Walnuts
+- 1 Egg
+- 1 teaspoon Vanilla
+- 1/2 teaspoon Baking Soda
+- 1 Pinch Salt
 
 directions:
 - Preheat oven to 350 degrees. 

@@ -7,11 +7,11 @@ tags: Appetizers
 category: Appetizers
 
 ingredients:
-- 2 Packages of Cream Cheese
+- 2 Packages Cream Cheese
 - 1 Package Ranch Seasoning
-- 1 Bag Finely Shredded Colby Jack Cheese
-- 1 Pound thinly sliced Virginia Ham
-- Burrito sized Tortillas
+- 1 Bag Colby Jack Cheese, finely shredded
+- 1 Pound Virginia Ham, thinly sliced
+- Tortillas, burrito sized 
 
 directions:
 - Combine Cream Cheese with Ranch Mix

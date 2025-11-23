@@ -3,12 +3,12 @@ layout: recipe
 title: Khachapuri Dough
 
 ingredients:
-- 3 1/3 cups all-purpose flour, sifted, plus more as needed
-- 1 1/3 teaspoons kosher salt
-- 1 1/3 teaspoons sugar
-- 1 1/3 teaspoons instant dry (or rapid-rise) yeast
-- 1 1/3 cups water, warmed
-- 4 tablespoons sunflower or vegetable oil, plus more for greasing
+- 3 1/3 Cups All Purpose Flour, sifted, plus more as needed
+- 1 1/3 teaspoons Kosher Salt
+- 1 1/3 teaspoons Sugar
+- 1 1/3 teaspoons Instant Dry (or rapid-rise) Yeast
+- 1 1/3 Cups Water, warmed
+- 4 Tablespoons Sunflower or Vegetable Oil, plus more for greasing
 
 directions:
 - In a medium bowl, combine flour, salt, sugar, and instant dry yeast. 

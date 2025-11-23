@@ -7,13 +7,13 @@ category: Dinner
 preptime: 30 Minutes
 
 ingredients:
-- 8-10 Cups of Romaine or Iceberg Lettuce, Chopped
-- 1 Lb Lean Ground Beef or Ground Turkey
-- 1 Package of Taco Seasoning
-- 1 Can Drained Red Beans
-- 2 Tomatoes, Chopped
-- 2 Cups of Shredded Chedar Cheese 
-- 2 Cups of Doritos
+- 8 to 10 Cups Romaine or Iceberg Lettuce, chopped
+- 1 Pound Lean Ground Beef or Ground Turkey
+- 1 Package Taco Seasoning
+- 1 Can Red Beans, drained
+- 2 Tomatoes, chopped
+- 2 Cups Chedar Cheese, shredded
+- 2 Cups Doritos
 - Catalina Dressing to Taste
 
 directions:

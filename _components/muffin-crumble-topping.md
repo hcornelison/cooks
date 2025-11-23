@@ -7,7 +7,7 @@ ingredients:
 - 1/2 Cup Sugar
 - 1/2 Cup Flour
 - 1/2 Cup Rolled Oats
-- 1/4 Teaspoon Salt
+- 1/4 teaspoon Salt
 
 directions:
 - Combine all ingredients in a small bowl.

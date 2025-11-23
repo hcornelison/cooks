@@ -9,7 +9,7 @@ preptime: 1 Minute
 cooktime: 13 Minutes
 
 ingredients:
-- 12 eggs (or as many as you want)
+- 12 Eggs (or as many as you want)
 
 directions:
 - Put the eggs in the bottom of a sauce pan.

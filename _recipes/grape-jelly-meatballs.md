@@ -9,10 +9,10 @@ preptime: 5 Minutes
 cooktime: 180 Minutes
 
 ingredients:
-- 32 Ounces of frozen fully cooked meatballs
-- 1 Cup grape jelly
-- 1 1/2 Cup BBQ sauce
-- 2 Tbsp Sriracha (chili garlic sauce)
+- 32 ounces Fully Cooked Meatballs, frozen
+- 1 Cup Grape Jelly
+- 1 1/2 Cups BBQ Sauce
+- 2 Tablespoons Sriracha (chili garlic sauce)
 
 directions:
 - Add the frozen meatballs, jelly, BBQ sauce, and Sriracha into the slow cooker. 

@@ -6,10 +6,10 @@ tags: Appetizers
 category: Appetizers
 
 ingredients:
-- 3-4 Small Cans of Cooked Chicken
-- 4-5 Hard Boiled Eggs, Chopped
-- 2-3 Tbsp Miracle Whip
-- 2 Tbsp Sweet Pickles
+- 3 to 4 Small Cans Cooked Chicken
+- 4 to 5 Hard Boiled Eggs, chopped
+- 2 to 3 Tablespoons Miracle Whip
+- 2 Tablespoons Sweet Pickles
 
 directions:
 - Mix all ingredients well.

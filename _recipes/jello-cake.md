@@ -8,10 +8,10 @@ yield: 1 Cake
 preptime: 30 Minutes
 
 ingredients:
-- 1 Small Box of Strawberry Jello
-- 1 Small Box of Vanilla Pudding
+- 1 Small Box Strawberry Jello
+- 1 Small Box Vanilla Pudding
 - French Vanilla Cake Mix
-- 1 Tub of CoolWhip
+- 1 Tub CoolWhip
 
 directions:
 - Bake the Cake.

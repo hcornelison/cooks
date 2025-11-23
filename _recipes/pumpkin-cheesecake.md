@@ -11,27 +11,27 @@ preptime: 40 Minutes
 
 ingredients:
 
-- Nonstick cooking spray
-- 1/2 c. pecan halves
-- 14 graham crackers (full sheets)
-- 3 tbsp. granulated sugar
-- 1/2 tsp. salt
-- 1/2 cup butter
+- Nonstick Cooking Spray
+- 1/2 Cups Pecan Halves
+- 14 Graham Crackers (full sheets)
+- 3 Tablespoons Granulated Sugar
+- 1/2 teaspoon Salt
+- 1/2 Cup Butter
 
-- 4 8 Ounce blocks of cream cheese, softened
-- 1/2 Cup granulated sugar
-- 1 /2 Cup packed light brown sugar
-- 4 Large eggs
-- 1 15 Ounce can pumpkin puree
-- 1/3 Cup sour cream 
-- 1 Tbsp vanilla extract
-- 1 1/2 Tbsp cornstarch
-- 1/4 Tsp salt
-- 1 Tsp ground cinnamon
-- 1/2 Tsp ground ginger
-- 1/4 Tsp ground nutmeg
-- 1/4 Tsp ground cardamom
-- Chopped pecans, caramel sauce and/or whipped cream, to garnish 
+- 4 8 ounce blocks Cream Sheese, softened
+- 1/2 Cup Granulated Sugar
+- 1 /2 Cup Light Brown Sugar, packed
+- 4 Large Eggs
+- 15 ounce Can Pumpkin Puree
+- 1/3 Cup Sour Cream 
+- 1 Tablespoon Vanilla Extract
+- 1 1/2 Tablespoons Cornstarch
+- 1/4 teaspoon Salt
+- 1 teaspoon Ground Cinnamon
+- 1/2 teaspoon Ground Ginger
+- 1/4 teaspoon Ground Nutmeg
+- 1/4 teaspoon Ground Cardamom
+- Chopped Pecans, Caramel sauce and/or Whipped Cream, for garnish 
 
 directions:
 - Preheat the oven to 350˚. Wrap the bottom of a 9-inch springform pan with two layers of aluminum foil, allowing the foil to come a couple inches up the sides of the pan. (This prevents water from seeping into the pan while the cheesecake cooks in a water bath.) Lightly coat the inside of the pan with cooking spray.

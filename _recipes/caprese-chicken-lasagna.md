@@ -9,24 +9,24 @@ preptime: 90 Minutes
 cooktime: 30 Minutes
 
 ingredients:
-- 1 Box lasagna noodles
-- 1 Tbsp extra-virgin olive oil
-- 2 Lbs boneless skinless chicken breasts, cut into 1 Inch pieces
-- 2 Tsp dried oregano
-- 1/4 Cup balsamic vinegar
-- 4 cloves garlic, minced
-- 3 Tbsp butter
-- 3 Tbsp AP flour
-- 2 1/2 Cups milk
-- 5 Cups shredded mozzarella
-- 3/4 Cup grated Parmesan
-- 16 Ounces ricotta cheese
-- 1 Large egg
-- 6 roma tomatoes, thinly sliced
-- 1/2 Cup thinly sliced basil leaves
-- Kosher salt
-- Black pepper
-- Balsamic glaze
+- 1 Box Lasagna Noodles
+- 1 Tablespoon Extra-Virgin Olive Oil
+- 2 Pounds Boneless Skinless Chicken Breasts, cut into 1 inch pieces
+- 2 teaspoons Dried Oregano
+- 1/4 Cup Balsamic Vinegar
+- 4 Cloves Garlic, minced
+- 3 Tablespoons Butter
+- 3 Tablespoons All Purpose Flour
+- 2 1/2 Cups Milk
+- 5 Cups Mozzarella Cheese, shredded
+- 3/4 Cup Parmesan Cheese, grated
+- 16 ounces Ricotta Cheese
+- 1 Large Egg
+- 6 Roma Tomatoes, thinly sliced
+- 1/2 Cup Basil Leaves, thinly sliced
+- Kosher Salt
+- Black Pepper
+- Balsamic Glaze
 
 directions:
 - Cut up chicken, basil and tomatoes and set aside.

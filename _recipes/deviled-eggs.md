@@ -9,12 +9,12 @@ yield: 12 eggs
 
 ingredients:
 - 6 Hard Boiled eggs, peeled and cut length-wise
-- 1/4 Cup of Light Mayo
-- 1/2 Tsp Dry Ground Mustard
-- 1/2 Tsp White Vinegar
-- 1/8 Tsp Salt
-- 1/4 Tsp Black Pepper
-- Paprika to Garnish
+- 1/4 Cup Light Mayo
+- 1/2 teaspoon Dry Ground Mustard
+- 1/2 teaspoon White Vinegar
+- 1/8 teaspoon Salt
+- 1/4 teaspoon Black Pepper
+- Paprika to garnish
 
 directions:
 - Remove egg yolks into a small bowl and mash with a fork

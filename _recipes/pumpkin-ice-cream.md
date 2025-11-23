@@ -10,18 +10,18 @@ preptime: 15 Minutes
 cooktime: 30 Minutes
 
 ingredients:
-- 8 oz. Cream Cheese Softened
-- 8 oz. Heavy Cream
-- 8 oz. Whole Milk
+- 8 ounce Cream Cheese Softened
+- 8 ounce Heavy Cream
+- 8 ounce Whole Milk
 - 3/4 Cup Sugar
 - 1/2 Cup Unsweetened Pumpkin Puree
-- 1 Teaspoon Vanilla
-- 1/2 Teaspoon Cinnamon
-- 1/4 Teaspoon Salt
-- 6 Ounce Whole Pecans
+- 1 teaspoon Vanilla
+- 1/2 teaspoon Cinnamon
+- 1/4 teaspoon Salt
+- 6 ounce Whole Pecans
 - 2 Tablespoons Butter melted
 - 1/4 Cup Sugar
-- 1/4 Teaspoon Cinnamon
+- 1/4 teaspoon Cinnamon
 - Pinch of Salt
 
 directions:

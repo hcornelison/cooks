@@ -9,11 +9,11 @@ preptime: 5 Minutes
 cooktime: 15 Minutes
 
 ingredients:
-- 20 Ounces of canned chunk chicken, drained
+- 20 ounces canned Chunk Chicken, drained
 - 3/4 Cup Franks Buffalo Hot Sauce
-- 16 Ounces of cream cheese, cubed
-- 1 Cup of ranch dressing
-- 1 1/2 Cup of shredded cheeded and jack cheese's
+- 16 ounces Cream Cheese, cubed
+- 1 Cup Ranch Dressing
+- 1 1/2 Cups Cheddar Jack Cheese, shredded
 
 directions:
 - Over medium heat, add chicken and buffalo sauce to skillet, cook until heated through.

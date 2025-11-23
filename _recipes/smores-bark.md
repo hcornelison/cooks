@@ -10,7 +10,7 @@ preptime: 5 Minutes
 cooktime: 10 Minutes
 
 ingredients:
-- 2 11.5 Ounce packages Hershey's Milk Chocolate Chips
+- 2 11.5 ounce packages Hershey's Milk Chocolate Chips
 - 1 Tablespoon Shortening 
 - 5 Cups Golden Grahams Cereal, divided
 - 2 Cups Mini Marshmallows

@@ -8,7 +8,7 @@ preptime: 15 Minutes
 cooktime: 4 Minutes
 
 ingredients:
-- 11 Ounces Rolo Candies
+- 11 ounces Rolo Candies
 - 50 Mini Pretzels
 - 50 Pecan Halves
 

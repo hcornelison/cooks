@@ -3,15 +3,15 @@ layout: recipe
 title: White Sheet Cake
 
 ingredients:
-- 2 Cups AP flour
+- 2 Cups All Purpose Flour
 - 2 Cups Sugar
 - 1 Cup Water
 - 1 Cup Salted Butter
 - 2 Eggs
-- 1 Teaspoon Baking Soda
-- 1/4 Teaspoon Salt
+- 1 teaspoon Baking Soda
+- 1/4 teaspoon Salt
 - 1/2 Cup Sour Cream or Plain Greek Yogurt
-- 1 1/2 teaspoons almond extract
+- 1 1/2 teaspoons Almond Extract
 
 directions:
 - Preheat oven to 350 degrees.
