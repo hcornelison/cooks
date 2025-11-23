@@ -5,6 +5,7 @@ image: pumpkin-snickerdoodle-cookies.png
 tags: Dessert
 category: Dessert
 preptime: 30 Minutes
+yield: 28 Cookies
 
 ingredients:
 - 1 Cup Unsalted Butter, softened (2 sticks)
