@@ -2,8 +2,8 @@
 layout: recipe
 title: Grandma's Noodles
 image: grandmas-noodles.jpg
-tags: Dinners
-category: Dinners
+tags: Dinner
+category: Dinner
 
 ingredients:
 - 3 Eggs

@@ -2,8 +2,8 @@
 layout: recipe
 title: Taco Salad
 image: taco-salad.jpg
-tags: Dinners
-category: Dinners
+tags: Dinner
+category: Dinner
 preptime: 30 Minutes
 
 ingredients:

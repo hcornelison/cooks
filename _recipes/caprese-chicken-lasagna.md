@@ -3,8 +3,8 @@ layout: recipe
 title: Caprese Chicken Lasagna
 author: Lindsay Funston
 image: caprese-lasagna.jpg
-tags: Dinners
-category: Dinners
+tags: Dinner
+category: Dinner
 preptime: 90 Minutes 
 cooktime: 30 Minutes
 

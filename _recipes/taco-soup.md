@@ -3,8 +3,8 @@ layout: recipe
 title: Quick and Easy Taco Soup
 image: taco-soup.jpg
 imagecredit: https://thebakermama.com/recipes/quick-and-easy-taco-soup/
-tags: Dinners
-category: Dinners
+tags: Dinner
+category: Dinner
 
 ingredients:
 - 1 Can Pinto Beans, drain and rinsed
