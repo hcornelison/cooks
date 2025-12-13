@@ -16,7 +16,7 @@ ingredients:
 - 1 1/4 Cups All Purpose Flour
 - 3/4 Cup Creamy Peanut Butter
 - 1/2 Cup Quick Oats
-- 3/4 Cup M&Ms
+- 3/4 Cup M and M's
 - 1/2 Cup Semi Sweet Chocolate Chips
 - 1 Egg
 - 1 teaspoon Vanilla
