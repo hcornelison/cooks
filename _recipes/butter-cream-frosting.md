@@ -1,7 +1,7 @@
 ---
 layout: recipe
-title: Buttercream Frosting
-image: buttercream-frosting.png
+title: Butter Cream Frosting
+image: butter-cream-frosting.png
 tags: Dessert
 category: Dessert
 
