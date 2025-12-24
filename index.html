@@ -12,7 +12,7 @@ layout: default
       <div class="xs-col sm-col xs-col-6 sm-col-4 md-col-4 lg-col-3 xl-col-2 xs-px1 xs-mb2">
           <a class="block relative bg-preffered" href="{{ post.url | prepend: site.baseurl }}">
             <div class="image ratio bg-cover"{% for image in post.image %} style="background-image:url({{site.baseurl}}/images/{{ image }});"{% endfor %}></div>
-            <h1 class="title p1 m0 absolute bold white-contrast bottom-0 left-0">{{ post.title }}</h1>
+            <h1 class="title p1 m0 absolute white-contrast bottom-0 left-0">{{ post.title }}</h1>
           </a>
       </div>
     {% endfor %}

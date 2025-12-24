@@ -132,13 +132,13 @@ table, th, td {
 
 
 body {
-  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-family: 'Poppins', Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-family: 'Poppins', Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.1;
   margin-top: 1em;

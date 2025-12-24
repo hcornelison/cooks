@@ -66,21 +66,26 @@ ul li input{position: absolute; top:5px; left:0; opacity:0.5;}
 .post li{margin-bottom:1rem; padding:0 0 0 1rem;}
 .post li:before{content:"- "; position:absolute; left:0; color:var(--accent-color)}
 
-a .image{transition:.2s ease all; opacity:1;}
+a .image{transition:.2s ease all; opacity:1; border-radius:8px;}
 a:hover .image{opacity:0.2;}
 .ingredients p{margin-bottom:0.5rem;}
+
+.bg-preffered{border-radius:8px; overflow:hidden;}
 
 .sell .sm-col a{text-decoration:none; color:var(--link-color); border-bottom:2px solid rgba(255,255,255,0.5);}
 
 .ratio{padding-top:50%; background-position: center center; background-repeat:no-repeat;}
 
+.title{font-weight:400; text-align:center; width:100%; font-size:clamp(0.8rem, 5vw, 1.5rem); padding-left:0.5rem; padding-right:0.5rem; box-sizing:border-box;}
+
 @media all and (max-width:40em){
+.title{font-size:clamp(0.7rem, 4vw, 1.1rem);}
 .left-align{text-align:center;}
 .right-align{text-align:center;}
 }
 
 @media all and (max-width: 300px){
-.title{font-size:1.3rem; text-align:center; box-sizing:border-box; width:100%;}
+.title{font-size:1.3rem; text-align:center; box-sizing:border-box; width:100%; font-weight:400;}
 .xs-center{text-align: center}
 .site-title{bottom:-28px; top:auto; left:50%; margin-left:-25px; border-radius:200px; transition:.2s ease bottom}
 .site-title:hover{bottom:-14px;}
