@@ -6,7 +6,7 @@ nav {
   
 #menu {
     display: inline-flex;
-    font-size: 1rem;
+    font-size: 0.8rem;
     background-color: var(--menu-color);
     width:100%;
     padding: 2px 0;
@@ -14,21 +14,21 @@ nav {
 
 @media (min-width: 30px) {
     #menu {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         padding: 10px 0;
     }
 }
 
 @media (min-width: 450px) {
     #menu {
-        font-size: 1.4rem;
+        font-size: 1rem;
         padding: 10px 0;
     }
 }
 
 @media (min-width: 550px) {
     #menu {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         padding: 10px 0;
     }
 }
