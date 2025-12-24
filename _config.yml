@@ -5,10 +5,10 @@ description: An amazing recipe database!
 start_url: "https://recipes.hcornelison.dev/index.html"
 
 #comment out while debugging locally
-#baseurl: "https://recipes.hcornelison.dev"
+baseurl: "https://recipes.hcornelison.dev"
 
 #uncomment for local debugging!
-baseurl: "" 
+#baseurl: "" 
 language: "en"
 lang_direction: "ltr"
 github_username:  hcornelison
