@@ -10,7 +10,7 @@ cooktime: 5 Minutes
 
 ingredients:
 - 1 English Muffin
-- 1 Egg
+- 1 Large Egg
 - 2 Slices Canadian Bacon
 - 1 Slice Cheese
 - Butter

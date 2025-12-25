@@ -14,23 +14,22 @@ ingredients:
 - Nonstick Cooking Spray
 - 1/2 Cups Pecan Halves
 - 14 Graham Crackers (full sheets)
-- 3 Tablespoons Granulated Sugar
+- 3 Tablespoons Sugar
 - 1/2 teaspoon Salt
-- 1/2 Cup Butter
-
-- 4 8 ounce blocks Cream Sheese, softened
-- 1/2 Cup Granulated Sugar
+- 1/2 Cup unsalted Butter
+- 4 8 ounce blocks Cream Cheese, softened
+- 1/2 Cup Sugar
 - 1 /2 Cup Light Brown Sugar, packed
 - 4 Large Eggs
 - 15 ounce Can Pumpkin Puree
 - 1/3 Cup Sour Cream 
-- 1 Tablespoon Vanilla Extract
+- 1 Tablespoon Vanilla
 - 1 1/2 Tablespoons Cornstarch
 - 1/4 teaspoon Salt
-- 1 teaspoon Ground Cinnamon
-- 1/2 teaspoon Ground Ginger
-- 1/4 teaspoon Ground Nutmeg
-- 1/4 teaspoon Ground Cardamom
+- 1 teaspoon ground Cinnamon
+- 1/2 teaspoon ground Ginger
+- 1/4 teaspoon ground Nutmeg
+- 1/4 teaspoon ground Cardamom
 - Chopped Pecans, Caramel sauce and/or Whipped Cream, for garnish 
 
 directions:

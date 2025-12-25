@@ -15,8 +15,8 @@ ingredients:
 - 2 teaspoons Dried Oregano
 - 1/4 Cup Balsamic Vinegar
 - 4 Cloves Garlic, minced
-- 3 Tablespoons Butter
-- 3 Tablespoons All Purpose Flour
+- 3 Tablespoons unsalted Butter
+- 3 Tablespoons All-Purpose Flour
 - 2 1/2 Cups Milk
 - 5 Cups Mozzarella Cheese, shredded
 - 3/4 Cup Parmesan Cheese, grated

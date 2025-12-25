@@ -11,12 +11,12 @@ cooktime: 12 Minutes
 
 ingredients:
 - 1 Box Fudge Brownie mix, family size
-- 4 ounces softened Cream Cheese
-- 1 Egg
+- 4 ounces Cream Cheese, softened
+- 1 Large Egg
 - 1 Cup Powdered Sugar
-- 1/4 Cup Melted Butter
+- 1/4 Cup unsalted Butter, melted
 - 1 Cup Creamy Peanut Butter
-- 4 ounces Semi Sweet Chocolate Chips
+- 4 ounces Semi-Sweet Chocolate Chips
 
 directions:
 - Preheat oven to 350 degrees. 

@@ -11,11 +11,11 @@ cooktime: 55 Minutes
 
 ingredients:
 - 3 overly ripe Bananas
-- 1 1/2 Cups All Purpose Flour
+- 1 1/2 Cups All-Purpose Flour
 - 3/4 Cup Sugar
-- 1/3 Cup Butter, melted
+- 1/3 Cup unsalted Butter, melted
 - 1/4 Cup chopped Walnuts
-- 1 Egg
+- 1 Large Egg
 - 1 teaspoon Vanilla
 - 1/2 teaspoon Baking Soda
 - 1 Pinch Salt

@@ -7,7 +7,7 @@ category: Appetizers
 
 ingredients:
 - 1 Bag of Mini Pretzels, Twists
-- 3/4 Cup of Oil (Olive or Avocado)
+- 3/4 Cup of Olive or Avocado Oil
 - 1 Hidden Valley Ranch Seasoning Packet
 - 1 teaspoon Cayenne Pepper
 - 1 to 2 Tablespoons of Red Pepper Flakes

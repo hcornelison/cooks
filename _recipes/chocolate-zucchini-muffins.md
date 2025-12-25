@@ -11,18 +11,18 @@ preptime: 15 Minutes
 cooktime: 25 Minutes
 
 ingredients:
-- 2 Cups All Purpose Flour
+- 2 Cups All-Purpose Flour
 - 1/2 Cup Unsweetened Cocoa Powder
-- 1/4 Cup Granulated Sugar
+- 1/4 Cup Sugar
 - 1/4 Cup Light Brown Sugar
 - 2 teaspoons Baking Powder
 - 1 teaspoon Baking Soda
 - 1/2 teaspoon Salt
 - 1 Large Egg
-- 5 Tablespoons Unsalted Butter, melted
-- 1 teaspoon Pure Vanilla Extract
+- 5 Tablespoons unsalted Butter, melted
+- 1 teaspoon Vanilla
 - 1 Cup Skim Milk
-- 3/4 Cup Semisweet Chocolate Chips
+- 3/4 Cup Semi-Sweet Chocolate Chips
 - 1 small to medium size zucchini, finely shredded
 
 directions:

@@ -6,7 +6,7 @@ tags: Dessert
 category: Dessert
 
 ingredients:
-- 4 Stick unsalted Butter, room temperature
+- 4 Sticks unsalted Butter, room temperature
 - 8 Cups confectioners Sugar, sifted
 - Large pinch of Salt
 - 2 teaspoons Vanilla 

@@ -6,8 +6,8 @@ tags: Dinner
 category: Dinner
 
 ingredients:
-- 3 Eggs
-- Flour
+- 3 Large Eggs
+- All-Purpose Flour
 - Salt
 - Chicken Broth
 - More Eggs
@@ -23,5 +23,8 @@ directions:
 - For the sauce, add 1 egg for every can of Chicken Broth.
 - Add salt and pepper as needed and the yellow food coloring.
 - Cook the noodles in the sauce until the noodles are softened.
+
+notes:
+- This is a classic "Go with your heart" recipe and do what feels right.
 
 ---

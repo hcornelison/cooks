@@ -3,11 +3,11 @@ layout: recipe
 title: White Sheet Cake
 
 ingredients:
-- 2 Cups All Purpose Flour
+- 2 Cups All-Purpose Flour
 - 2 Cups Sugar
 - 1 Cup Water
-- 1 Cup Salted Butter
-- 2 Eggs
+- 1 Cup salted Butter
+- 2 Large Eggs
 - 1 teaspoon Baking Soda
 - 1/4 teaspoon Salt
 - 1/2 Cup Sour Cream or Plain Greek Yogurt

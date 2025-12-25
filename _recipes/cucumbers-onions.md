@@ -10,7 +10,7 @@ ingredients:
 - 5 Cucumbers
 - 1/2 Cup Sugar
 - 1 Cup Water
-- 1 Cup Distilled White Vinegar
+- 1 Cup White Vinegar
 - 1 Small Onion
 - Pepper to taste
 

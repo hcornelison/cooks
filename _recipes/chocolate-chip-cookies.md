@@ -8,20 +8,20 @@ category: Dessert
 yield: About 4 Dozen Cookies
 
 ingredients:
-- 2 1/4 Cups All Purpose Flour
+- 2 1/4 Cups All-Purpose Flour
 - 1 teaspoon Baking Soda
 - 1 teaspoon Salt
-- 1 Cup (2 sticks) Butter, softened
-- 3/4 Cup Granulated Sugar
+- 1 Cup (2 sticks) unsalted Butter, softened
+- 3/4 Cup Sugar
 - 3/4 Cup Brown Sugar, packed
-- 1 teaspoon vanilla extract
+- 1 teaspoon Vanilla
 - 2 Large Eggs
 - 2 Cups Semi-Sweet Chocolate Chips
 
 directions:
 - Preheat oven to 375 degrees. 
 - In a small bowl, combine flour, baking soda and salt.
-- In a large mixing bowl, beat butter, granulated sugar, brown sugar and vanilla until creamy.
+- In a large mixing bowl, beat butter, sugar, brown sugar and vanilla until creamy.
 - Add eggs, one at a time, beating well after each addition.
 - Beat in flour mixture gradually.
 - Stir in chocolate chips.

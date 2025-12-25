@@ -15,7 +15,7 @@ ingredients:
 - 1/4 teaspoon Pepper
 - Salt to taste
 - 8 ounces Cream Cheese, cubed
-- 1/2 Cup Unsalted Butter, cut into thin slices (1 stick of butter)
+- 1/2 Cup unsalted Butter, cut into thin slices (1 stick of butter)
 
 directions:
 - Place all of the corn in a crock-pot.

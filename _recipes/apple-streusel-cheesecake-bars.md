@@ -10,11 +10,11 @@ cooktime: 55 Minutes
 
 ingredients:
 - 1 Pouch Betty Crocker Oatmeal Cookie Mix (17.5 ounces)
-- 3/4 Cup Firm Butter
+- 3/4 Cup Firm unsalted Butter
 - 2 Packages Cream Cheese, Softened (8 ounce packages)
 - 1/2 Cup Sugar
-- 2 Tablespoons All Purpose Flour
-- 1 Egg
+- 2 Tablespoons All-Purpose Flour
+- 1 Large Egg
 - 1 teaspoon Vanilla
 - 1 Can Apple Pie Filling (21 ounces)
 - 1/2 teaspoon Ground Cinnamon

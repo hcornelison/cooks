@@ -3,16 +3,16 @@ layout: recipe
 title: Lemon Blueberry Muffins
 
 ingredients:
-- 2 Cups All Purpose Flour
+- 2 Cups All-Purpose Flour
 - 1 1/2 teaspoons Baking Powder
 - 1/2 teaspoon Salt
-- 1/2 Cup Butter, softened
+- 1/2 Cup unsalted Butter, softened
 - 1 Cup Sugar
-- 2 Eggs
+- 2 Large Eggs
 - 1/2 Cup Buttermilk
 - Grated Zest from 1 Lemon
 - 1 teaspoon Vanilla
-- 2 Cups fresh or frozen Blueberries
+- 2 Cups Blueberries, fresh or frozen
 
 directions:
 - Preheat oven to 350 degrees.

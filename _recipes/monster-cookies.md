@@ -10,15 +10,15 @@ preptime: 60 Minutes
 cooktime: 10-12 Minutes
 
 ingredients:
-- 1/2 Cup Butter
+- 1/2 Cup unsalted Butter
 - 1/2 Cup Light Brown Sugar
 - 1/4 Cup Sugar
-- 1 1/4 Cups All Purpose Flour
+- 1 1/4 Cups All-Purpose Flour
 - 3/4 Cup Creamy Peanut Butter
 - 1/2 Cup Quick Oats
 - 3/4 Cup M and M's
-- 1/2 Cup Semi Sweet Chocolate Chips
-- 1 Egg
+- 1/2 Cup Semi-Sweet Chocolate Chips
+- 1 Large Egg
 - 1 teaspoon Vanilla
 - 1/2 teaspoon Baking Soda
 - 1/4 teaspoon Salt

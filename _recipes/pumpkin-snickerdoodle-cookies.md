@@ -8,24 +8,24 @@ preptime: 30 Minutes
 yield: 28 Cookies
 
 ingredients:
-- 1 Cup Unsalted Butter, softened (2 sticks)
-- 1 Cup Granulated Sugar
+- 1 Cup unsalted Butter, softened (2 sticks)
+- 1 Cup Sugar
 - 1/2 Cup Pumpkin Puree (not pumpkin pie filling)
-- 1 large Egg
-- 2 3/4 Cups All Purpose Flour
+- 1 Large Egg
+- 2 3/4 Cups All-Purpose Flour
 - 2 teaspoons Cream of Tartar
 - 1 teaspoon Baking Soda
 - 1/2 teaspoon Salt
-- 2 teaspoons Ground Cinnamon
-- 1 teaspoon Ground Ginger
-- 1/4 teaspoon Ground Nutmeg
-- 1/4 teaspoon Ground Cloves
-- For Rolling, 1/4 Cup Granulated Sugar mixed with 2 teaspoons Ground Cinnamon
+- 2 teaspoons ground Cinnamon
+- 1 teaspoon ground Ginger
+- 1/4 teaspoon ground Nutmeg
+- 1/4 teaspoon ground Cloves
+- For Rolling, 1/4 Cup Sugar mixed with 2 teaspoons ground Cinnamon
 
 directions:
 - Preheat oven to 350 degrees.
 - Line baking sheets with parchment paper.
-- In a large bowl, beat the softened butter with 1 cup granulated sugar until light and fluffy, about 2-3 minutes.
+- In a large bowl, beat the softened butter with 1 cup sugar until light and fluffy, about 2-3 minutes.
 - Add pumpkin puree and egg to the butter mixture and mix until well combined.
 - In a separate bowl, whisk together the flour, cream of tarter, baking soda, salt, 2 teaspoons of cinnamon, ginger, nutmeg and cloves. 
 - Gradually add dry ingredients to the wet mixture, stir gently until well combined (do not over-mix). The dough will be soft.

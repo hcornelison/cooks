@@ -10,7 +10,7 @@ preptime: 15 Minutes
 cooktime: 30 Minutes
 
 ingredients:
-- 8 ounce Cream Cheese Softened
+- 8 ounce Cream Cheese, softened
 - 8 ounce Heavy Cream
 - 8 ounce Whole Milk
 - 3/4 Cup Sugar
@@ -19,7 +19,7 @@ ingredients:
 - 1/2 teaspoon Cinnamon
 - 1/4 teaspoon Salt
 - 6 ounce Whole Pecans
-- 2 Tablespoons Butter melted
+- 2 Tablespoons unsalted Butter, melted
 - 1/4 Cup Sugar
 - 1/4 teaspoon Cinnamon
 - Pinch of Salt
