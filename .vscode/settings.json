@@ -1,3 +1,7 @@
 {
-    "livePreview.defaultPreviewPath": "/index.html"
+    "files.exclude": {
+        ".idea": true,
+        ".jekyll-cache": true,
+        "_site": true
+    }
 }
