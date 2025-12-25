@@ -70,6 +70,9 @@ a .image{transition:.2s ease all; opacity:1; border-radius:8px;}
 a:hover .image{opacity:0.2;}
 .ingredients p{margin-bottom:0.5rem;}
 
+.post-content h3{font-size:1.5rem;}
+.post-content li, .post-content li p{font-size:1.1rem;}
+
 .bg-preffered{border-radius:8px; overflow:hidden;}
 
 .sell .sm-col a{text-decoration:none; color:var(--link-color); border-bottom:2px solid rgba(255,255,255,0.5);}
