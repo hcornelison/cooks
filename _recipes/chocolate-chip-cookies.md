@@ -13,7 +13,7 @@ ingredients:
 - 1 teaspoon Salt
 - 1 Cup (2 sticks) unsalted Butter, softened
 - 3/4 Cup Sugar
-- 3/4 Cup Brown Sugar, packed
+- 3/4 Cup light or dark Brown Sugar, packed
 - 1 teaspoon Vanilla
 - 2 Large Eggs
 - 2 Cups Semi-Sweet Chocolate Chips

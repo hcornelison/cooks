@@ -14,7 +14,7 @@ ingredients:
 - 2 Cups All-Purpose Flour
 - 1/2 Cup Unsweetened Cocoa Powder
 - 1/4 Cup Sugar
-- 1/4 Cup Light Brown Sugar
+- 1/4 Cup light Brown Sugar
 - 2 teaspoons Baking Powder
 - 1 teaspoon Baking Soda
 - 1/2 teaspoon Salt

@@ -19,7 +19,7 @@ ingredients:
 - 1/2 Cup unsalted Butter
 - 4 8 ounce blocks Cream Cheese, softened
 - 1/2 Cup Sugar
-- 1 /2 Cup Light Brown Sugar, packed
+- 1 /2 Cup light Brown Sugar, packed
 - 4 Large Eggs
 - 15 ounce Can Pumpkin Puree
 - 1/3 Cup Sour Cream 
