@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Taco Salad
+title: Old Fashioned Taco Salad
 image: taco-salad.jpg
 tags: Dinner
 category: Dinner
@@ -13,7 +13,7 @@ ingredients:
 - 1 Can Red Beans, drained
 - 2 Tomatoes, chopped
 - 2 Cups Chedar Cheese, shredded
-- 2 Cups Doritos
+- 2 Cups Doritos or Fritos
 - Catalina Dressing to Taste
 
 directions:
