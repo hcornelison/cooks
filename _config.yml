@@ -55,7 +55,6 @@ translation:
     nutritional_information: "Nutritional Information"
     component_based: '<strong class="preffered-color">This is a component based recipe, follow all of the steps!</strong>'
     search: "Search"
-    blog: "Blog"
     subscribe: "Subscribe"
     home: "Home"
     tips: "Tips"
