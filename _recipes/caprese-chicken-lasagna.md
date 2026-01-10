@@ -45,7 +45,7 @@ directions:
 - Season with salt and pepper.
 - In a small bowl, stir together ricotta cheese and egg, season with salt and pepper, then set aside.
 - Preheat the oven to 375 Degrees.
-- In a large baking dish, spread a thin layer of sauce. 
+- In a large, deep, stone baking dish, spread a thin layer of sauce. 
 - Add a layer of lasagna noodles, overlapping slightly
 - Top with the following 
 - Third of ricotta mixture
@@ -60,6 +60,7 @@ directions:
 - Finally, garnish the lasagna with and remaining basil and balsamic glaze before serving.
 
 notes:
+- A stone baking dish is preferred. 
 - <a href="https://www.delish.com/cooking/recipe-ideas/recipes/a51707/caprese-chicken-lasagna-recipe">Original Recipe</a>
 
 ---
