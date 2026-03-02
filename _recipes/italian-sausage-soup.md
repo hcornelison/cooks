@@ -25,8 +25,9 @@ ingredients:
 directions:
 - Cook sausage and onion, drain grease.
 - Add garlic and red pepper flakes, cook for an additional minute.
-- Add broth, tomatoes, pasta and italian seasoning.
-- Bring to a boil, reduce heat, and simmer until pasta is cooked.
+- Add broth, tomatoes, and italian seasoning.
+- Bring to a boil, add pasta. 
+- Reduce heat, and simmer until pasta is cooked.
 - Add cream cheese, whipping cream and parmesan cheese, let cook an additional 3-5 minutes.
 - Add salt and pepper to taste.
 
