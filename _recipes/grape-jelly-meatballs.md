@@ -6,7 +6,7 @@ image: meatball.jpg
 tags: Appetizers
 category: Appetizers
 preptime: 5 Minutes
-cooktime: 180 Minutes
+cooktime: 3 Hours
 
 ingredients:
 - 32 ounces Fully Cooked Meatballs, frozen
