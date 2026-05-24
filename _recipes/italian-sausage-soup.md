@@ -15,10 +15,10 @@ ingredients:
 - 1/2 teaspoon Red Pepper Flakes
 - 4 Cups Chicken Broth
 - 1 Can Petite Diced Tomatoes
-- 8 Ounces of Ditalini or Cheese Tortellini
+- 8 ounces of Ditalini or Cheese Tortellini
 - 1 teaspoon Italian Seasoning
 - 1/2 Cup Grated Parmesan Cheese
-- 4 Ounces Cream Cheese, softened
+- 4 ounces Cream Cheese, softened
 - 1/2 Cup Heavy Whipping Cream
 - Salt and Pepper to taste
 
