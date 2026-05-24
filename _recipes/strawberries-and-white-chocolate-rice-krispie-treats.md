@@ -23,11 +23,11 @@ directions:
 - In a large pan over medium low heat, add the butter and cook, stirring occasionally until the butter is melted.
 - Add marshmallows and salt, cook, stirring until the marshmallows are completely melted. Remove from heat and then add the vanilla.
 - Pour the Rice Krispies into the mixture, and use a silicone spatula to fold everything together.
-- Fold in the strawberries and white chocolate chips, reserving a few tables of each for a garnish on top.
-- Transfer the combined mixture into the prepared dish, and pat the mixture until it forms an even layer. Top with the remaining strawberries and white chocolate.
+- Fold in the strawberries and white chocolate chips, reserving a couple tablespoons of each for a garnish on top.
+- Transfer the combined mixture into the prepared dish, partially pat the mixture. Top with the remaining strawberries and white chocolate, and give a final press.
 - Put in the fridge for 20 minutes to set, and then remove from pan and cut and enjoy! 
 
 notes:
-- These are best ate the day they are made, but also ok the next day.
+- These are best ate the day they are made, but also okay the next day.
 
 ---
