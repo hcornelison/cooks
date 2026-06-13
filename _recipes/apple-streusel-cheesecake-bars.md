@@ -23,7 +23,7 @@ ingredients:
 directions:
 - Preheat oven to 350 degrees. 
 - Line 13 x 9 Pan with parchment paper.
-- In a large bowl, place the cookie mix. Using a pastry blender, cut in butter until the mixture is crumbly and course.
+- In a large bowl, place the cookie mix. Using a pastry blender, cut in butter until the mixture is crumbly and coarse.
 - Reserve 1 1/4 Cup of the crumb mixture for later.
 - Press remaining crumbs into the bottom of the pan, and bake for 10 minutes.
 - In a large bowl, beat together cream cheese, sugar, flour, vanilla and egg until smooth. 

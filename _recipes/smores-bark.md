@@ -16,7 +16,7 @@ ingredients:
 - 2 Cups Mini Marshmallows
 
 directions:
-- Melt chocolate chips in a double boilers with the shortening, until completely smooth.
+- Melt chocolate chips in a double boiler with the shortening, until completely smooth.
 - Line a large baking sheet with waxed paper.
 - Spread 4 1/2 cups of cereal and marshmallows on baking sheet. 
 - The remaining cereal, crush and set aside.

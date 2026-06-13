@@ -13,12 +13,12 @@ ingredients:
 - 2 1/4 Cups All-Purpose Flour
 - 2 Tablespoons Sugar
 - 1 Tablespoon Baking Powder
-- 1/2 Teaspoon salt
-- 1/4 Teaspoon Baking Soda
+- 1/2 teaspoon Salt
+- 1/4 teaspoon Baking Soda
 - 1 2/3 Cups Whole or Butter Milk
 - 4 Tablespoons Butter, melted
 - 2 Large Eggs
-- 1 Teaspoon Vanilla
+- 1 teaspoon Vanilla
 
 directions:
 - In a large bowl, whisk together the flour, sugar, baking powder, salt, and baking soda until evenly mixed.

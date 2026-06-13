@@ -2,7 +2,9 @@
 layout: recipe
 title: Hummingbird Feed
 image: hummingbird.png
-prep_time: 10 Minutes
+tags: Other
+category: Other
+preptime: 10 Minutes
 
 ingredients:
 - 1/2 Cup Sugar

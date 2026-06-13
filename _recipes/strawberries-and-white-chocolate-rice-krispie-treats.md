@@ -10,11 +10,11 @@ preptime: 35 Minutes
 
 ingredients:
 - 6 Cups Rice Krispies Cereal
-- 6 Tablespoons Unsalted Butter
+- 6 Tablespoons unsalted Butter
 - 12 ounces Large Marshmallows
 - 2 teaspoons Vanilla
 - 1/4 teaspoon Salt
-- 1 1/2 Cups Freeze Dried Strawberries (Big Bag), lighted chopped into pieces
+- 1 1/2 Cups Freeze Dried Strawberries (Big Bag), lightly chopped into pieces
 - 1 Cup White Chocolate Chips
 
 directions:
@@ -28,6 +28,6 @@ directions:
 - Put in the fridge for 20 minutes to set, and then remove from pan and cut and enjoy! 
 
 notes:
-- These are best ate the day they are made, but also okay the next day.
+- These are best eaten the day they are made, but also okay the next day.
 
 ---

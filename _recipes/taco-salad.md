@@ -12,7 +12,7 @@ ingredients:
 - 1 Package Taco Seasoning
 - 1 Can Red Beans, drained
 - 2 Tomatoes, chopped
-- 2 Cups Chedar Cheese, shredded
+- 2 Cups Cheddar Cheese, shredded
 - 2 Cups Doritos or Fritos
 - Catalina Dressing to Taste
 

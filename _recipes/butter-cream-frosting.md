@@ -11,7 +11,7 @@ ingredients:
 - Large pinch of Salt
 - 2 teaspoons Vanilla 
 - 1 teaspoon Almond Extract
-- 1 to 3 Tablespoons Whole Mile, as needed
+- 1 to 3 Tablespoons Whole Milk, as needed
 
 directions:
 - Combine the butter, sugar and flavorings in the bowl of a stand mixer.
@@ -19,6 +19,6 @@ directions:
 - Increase the mixing speed to high, beat until smooth and fluffy, about 2 minutes.
 
 notes:
-- Adjust the consistently as you see fit with milk.
+- Adjust the consistency as you see fit with milk.
 
 ---

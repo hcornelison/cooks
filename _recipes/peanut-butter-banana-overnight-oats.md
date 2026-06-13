@@ -14,8 +14,8 @@ ingredients:
 - 1/2 Tablespoon Chia Seeds
 - 1 Tablespoon Protein Powder
 - 1 Tablespoon Natural Creamy Peanut Butter
-- 1/2 Teaspoon Vanilla
-- 2 Teaspoons Maple Syrup
+- 1/2 teaspoon Vanilla
+- 2 teaspoons Maple Syrup
 - 1 Pinch Salt
 
 directions:

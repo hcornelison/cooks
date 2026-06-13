@@ -16,7 +16,7 @@ ingredients:
 directions:
 - Rinse fruit and gently pat fruit dry.
 - Quarter the strawberries.
-- Remove all stems from blackberries.
+- Remove all stems from blueberries.
 - Remove grapes from their stems.
 - Gently combine all fruit in a bowl and set aside.
 - In a separate bowl, combine honey and lime juice, then pour over the fruit.

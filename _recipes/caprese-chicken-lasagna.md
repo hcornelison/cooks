@@ -57,7 +57,7 @@ directions:
 - Repeat for a total of three layers, ending with mozzarella.
 - Bake until all of the cheese is melted, about 25 minutes.
 - Turn oven to broil and cook for another 2 to 4 minutes, until lightly golden.
-- Finally, garnish the lasagna with and remaining basil and balsamic glaze before serving.
+- Finally, garnish the lasagna with any remaining basil and balsamic glaze before serving.
 
 notes:
 - A stone baking dish is preferred. 

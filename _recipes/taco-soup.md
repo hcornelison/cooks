@@ -7,10 +7,10 @@ tags: Dinner
 category: Dinner
 
 ingredients:
-- 1 Can Pinto Beans, drain and rinsed
-- 1 Can Black Beans, drain and rinsed
-- 1 Can Kidney Beans, drain and rinsed
-- 1 Can Corn, drain and rinsed
+- 1 Can Pinto Beans, drained and rinsed
+- 1 Can Black Beans, drained and rinsed
+- 1 Can Kidney Beans, drained and rinsed
+- 1 Can Corn, drained and rinsed
 - 2 Cans Diced Tomatoes, Basil, Garlic and Oregano
 - 1 Can Rotel Original
 - 1 Can Beef or Chicken Stock

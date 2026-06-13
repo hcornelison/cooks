@@ -4,7 +4,7 @@ title: Cucumbers and Onions
 image: cucumbers.png
 tags: Appetizers
 category: Appetizers
-prep_time: 10 Minutes
+preptime: 10 Minutes
 
 ingredients:
 - 5 Cucumbers
