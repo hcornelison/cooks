@@ -1,4 +1,7 @@
-<nav class="menu" role="navigation">    
+<div class="site-wordmark">
+  <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+</div>
+<nav class="menu" role="navigation">
     <ul id="menu">
       <a href="{{ site.baseurl }}/"><li><i class="fa fa-home fa-lg"></i> {{ site.translation[site.language].home }}</li></a>
       <a href="{{ "/search" | prepend: site.baseurl}}"><li><i class="fa fa-search fa-lg"></i> {{ site.translation[site.language].search }}</li></a>

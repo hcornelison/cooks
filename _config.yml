@@ -16,19 +16,19 @@ github_username:  hcornelison
 # Template colors used site-wide via css
 colors:
   dark-mode:
-    background-color: "#2D2727"
-    primary-text-color: "#fff"
-    secondary-text-color: "#fff"
-    link-color: "#ff851b"
-    menu-color: "#181616"
-    accent-color: "#3e3535"
+    background-color: "#1A2318"
+    primary-text-color: "#F5EFE7"
+    secondary-text-color: "#7A9E7E"
+    link-color: "#E8936A"
+    menu-color: "#111D10"
+    accent-color: "#243322"
   light-mode:
-    background-color: "#f6efec"
-    primary-text-color: "#000"
-    secondary-text-color: "#714e79"
-    link-color: "#418362"
-    menu-color: "#c7a8cc"
-    accent-color: "#cad5c8"
+    background-color: "#F5EFE7"
+    primary-text-color: "#2D4A2D"
+    secondary-text-color: "#7A9E7E"
+    link-color: "#B5541F"
+    menu-color: "#2D4A2D"
+    accent-color: "#E8DDD0"
 
 # Build settings
 markdown: kramdown

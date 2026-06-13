@@ -6,7 +6,7 @@ layout: default
   
   {% for image in page.image %}
     <div class="xs-p2">
-      <img itemprop="image" src="{{site.baseurl}}/images/{{ image }}" />
+      <img class="recipe-hero-image" itemprop="image" src="{{site.baseurl}}/images/{{ image }}" />
       {% if page.imagecredit %}
         {% for imagecredit in page.imagecredit %}
           <a href="{{ imagecredit }}" class="right">
@@ -29,34 +29,25 @@ layout: default
     </div>
   </div>
 
-  <div class="clearfix" style="display:flex; justify-content: center;">
-    <div class="sm-col">
-      {% if page.yield %}
-        <div class="mt0 mb1 bg-darken-2 p1 center" itemprop="yield">
-          <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].yield }}</h4>
-          <p class="inline" itemprop="recipeIngredient">{{page.yield}}</p>
-        </div>
-      {% endif %}
-    </div>
-    
-    <div class="sm-col">
-      {% if page.preptime %}
-        <div class="mt0 mb1 bg-darken-2 p1 center" itemprop="preptime">
-          <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].preptime }}</h4>
-          <p class="inline">{{page.preptime}}</p>
-        </div>
-      {% endif %}
-    </div>
-
-    <div class="sm-col">
-      {% if page.cooktime %}
-        <div class="mt0 mb2 bg-darken-2 p1 center" itemprop="cooktime">
-          <h4 class="preffered-color mt0 mb2 xs-center inline">{{ site.translation[site.language].cooktime }}</h4>
-          <p class="inline">{{page.cooktime}}</p>
-        </div>
-      {% endif %}
-    </div>
-
+  <div class="recipe-meta-strip">
+    {% if page.yield %}
+      <div class="recipe-meta-item" itemprop="yield">
+        <span class="recipe-meta-label">{{ site.translation[site.language].yield }}</span>
+        <span class="recipe-meta-value" itemprop="recipeIngredient">{{ page.yield }}</span>
+      </div>
+    {% endif %}
+    {% if page.preptime %}
+      <div class="recipe-meta-item" itemprop="preptime">
+        <span class="recipe-meta-label">{{ site.translation[site.language].preptime }}</span>
+        <span class="recipe-meta-value">{{ page.preptime }}</span>
+      </div>
+    {% endif %}
+    {% if page.cooktime %}
+      <div class="recipe-meta-item" itemprop="cooktime">
+        <span class="recipe-meta-label">{{ site.translation[site.language].cooktime }}</span>
+        <span class="recipe-meta-value">{{ page.cooktime }}</span>
+      </div>
+    {% endif %}
   </div>
 
   <div class="clearfix mt1">
@@ -83,7 +74,7 @@ layout: default
             <option value=5>5</option>
           </select>
         </div>
-        <ul itemprop="ingredients" style="margin: 10px;">
+        <ul class="ingredients-list" itemprop="ingredients">
           {% for ingredient in page.ingredients %}
             <li itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
           {% endfor %}
@@ -93,7 +84,7 @@ layout: default
 
     <div class="sm-col sm-col-6 lg-col-6">
       <h3 class="preffered-color mt0 mb2 xs-center">{{ site.translation[site.language].directions }}</h3>
-      <ul itemprop="recipeInstructions">
+      <ul class="directions-list" itemprop="recipeInstructions">
         {% for direction in page.directions %}
           <li>{{ direction | markdownify }}</li>
         {% endfor %}
@@ -105,7 +96,7 @@ layout: default
     <div class=" mt2 clearfix">
       <div class="sm-col sm-col-12 lg-col-12">
         <h3 class="preffered-color mt0 mb2 xs-center">{{ site.translation[site.language].notes }}</h3>
-        <ul itemprop="notes">
+        <ul class="notes-list" itemprop="notes">
           {% for note in page.notes %}
             <li>{{ note | markdownify }}</li>
           {% endfor %}

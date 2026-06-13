@@ -1,42 +1,64 @@
+/* Wordmark */
+.site-wordmark {
+    background-color: var(--menu-color);
+    text-align: center;
+    padding: 1.25rem 1rem 0.5rem;
+}
+
+.site-wordmark a {
+    font-family: 'Lora', serif;
+    font-size: clamp(1.6rem, 5vw, 2.4rem);
+    font-weight: 700;
+    font-style: italic;
+    color: #F5EFE7;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.site-wordmark a:hover {
+    opacity: 0.85;
+}
+
+/* Nav */
 nav {
     z-index: 99;
     top: 0px;
     position: sticky;
 }
-  
+
 #menu {
     display: inline-flex;
+    font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
     background-color: var(--menu-color);
-    width:100%;
-    padding: 2px 0;
-}
-
-@media (min-width: 30px) {
-    #menu {
-        font-size: 0.9rem;
-        padding: 10px 0;
-    }
+    width: 100%;
+    padding: 2px 0 10px;
+    border-bottom: 3px solid rgba(181, 84, 31, 0.4);
 }
 
 @media (min-width: 450px) {
     #menu {
-        font-size: 1rem;
-        padding: 10px 0;
+        font-size: 0.9rem;
     }
 }
 
 @media (min-width: 550px) {
     #menu {
-        font-size: 1.1rem;
-        padding: 10px 0;
+        font-size: 1rem;
     }
 }
 
 #menu a {
-    color: var(--primary-text-color-);
+    color: #F5EFE7;
     text-align: center;
     padding: 0;
+    text-decoration: none;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+#menu a:hover {
+    opacity: 1;
 }
 
 @media (min-width: 240px) {

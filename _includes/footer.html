@@ -1,17 +1,11 @@
-<footer class="footer bg-darken-1 clearfix py4 mt3">
-
-  <div class="container px3 sm-px4">
-
-    <div class="clearfix">
-      <div class="sm-col sm-col-12">
-        <p style="text-align: center;" class="left-align mb2">
-          <a href="{{ "/search" | prepend: site.baseurl}}">{{ site.translation[site.language].search }}</a>  | 
-          <a href="{{ "/categories" | prepend: site.baseurl}}">{{ site.translation[site.language].categories }}</a>  | 
-          <a href="{{ "/tips" | prepend: site.baseurl}}">{{ site.translation[site.language].tips }}</a>
-        </p>
-      </div>
-    </div>
-    
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p class="site-footer-title">{{ site.title }}</p>
+    <nav class="site-footer-links">
+      <a href="{{ "/search" | prepend: site.baseurl}}">{{ site.translation[site.language].search }}</a>
+      <a href="{{ "/categories" | prepend: site.baseurl}}">{{ site.translation[site.language].categories }}</a>
+      <a href="{{ "/tips" | prepend: site.baseurl}}">{{ site.translation[site.language].tips }}</a>
+    </nav>
   </div>
   <script src="{{ site.baseurl }}/js/mode-switcher.js"></script>
 </footer>
