@@ -27,8 +27,7 @@ directions:
 - In a medium bowl, whisk together the honey, soy sauce, minced garlic, olive oil, and red pepper flakes if using.
 - Place the chicken thighs skin-side up in the prepared baking dish.
 - Pour the honey garlic sauce evenly over the chicken thighs.
-- Bake uncovered for 35 to 45 minutes, or until the chicken reaches an internal temperature of 165 Degrees.
-- Halfway through cooking, spoon some of the sauce over the chicken to keep it flavorful and juicy.
+- Bake uncovered for 35 to 45 minutes, or until the chicken reaches an internal temperature of 165 Degrees. Halfway through cooking, spoon some of the sauce over the chicken to keep it flavorful and juicy.
 - For extra caramelization, broil for 2 to 3 minutes at the end of baking. Watch carefully to avoid burning the honey sauce.
 - Let the chicken rest for 5 minutes before serving. Garnish with parsley or green onions and spoon extra sauce over the top.
  
