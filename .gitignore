@@ -3,3 +3,4 @@
 .DS_Store
 /*.txt
 /.idea
+/.claude/launch.json
