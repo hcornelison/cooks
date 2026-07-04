@@ -163,11 +163,6 @@ a:hover .image {
     overflow: hidden;
 }
 
-/* Search card title overlays a dark scrim on the image, so it must stay white regardless of theme */
-.title.white-contrast {
-    color: #fff;
-}
-
 .title-text {
     display: -webkit-box;
     -webkit-line-clamp: 2;
