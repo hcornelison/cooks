@@ -40,8 +40,6 @@ collections:
     output: true
   recipes:
     output: true
-  tips:
-    output: true
 
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
@@ -56,8 +54,6 @@ translation:
     component_based: '<strong class="preffered-color">This is a component based recipe, follow all of the steps!</strong>'
     search: "Search"
     subscribe: "Subscribe"
-    home: "Home"
-    tips: "Tips"
     theme: "Theme"
     notes: "Notes"
     yield: "Servings:"
