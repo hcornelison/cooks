@@ -1,13 +1,22 @@
-/* Wordmark */
-.site-wordmark {
+/* Header */
+.site-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
     background-color: var(--menu-color);
-    text-align: center;
-    padding: 1.25rem 1rem 0.5rem;
+    padding: 0.9rem 1.25rem;
+    border-bottom: 3px solid rgba(181, 84, 31, 0.4);
+    position: sticky;
+    top: 0px;
+    z-index: 99;
 }
 
+/* Wordmark */
 .site-wordmark a {
     font-family: 'Lora', serif;
-    font-size: clamp(1.6rem, 5vw, 2.4rem);
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
     font-weight: 700;
     font-style: italic;
     color: #F5EFE7;
@@ -20,20 +29,13 @@
 }
 
 /* Nav */
-nav {
-    z-index: 99;
-    top: 0px;
-    position: sticky;
-}
-
 #menu {
     display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
     font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
-    background-color: var(--menu-color);
-    width: 100%;
-    padding: 2px 0 10px;
-    border-bottom: 3px solid rgba(181, 84, 31, 0.4);
+    gap: 1.5rem;
 }
 
 @media (min-width: 450px) {
@@ -61,19 +63,20 @@ nav {
     opacity: 1;
 }
 
-@media (min-width: 240px) {
-    #menu a {
-        padding: 0 2%;
-    }
-}
-
-@media (min-width: 450px) {
-    #menu a {
-        padding: 0 1rem;
-    }
-}
-
 #menu li {
     padding: 0;
     position: relative;
+}
+
+@media (max-width: 40em) {
+    .site-header-inner {
+        justify-content: center;
+        text-align: center;
+        padding: 0.75rem 1rem;
+    }
+    #menu {
+        justify-content: center;
+        gap: 0.9rem;
+        font-size: 0.78rem;
+    }
 }
