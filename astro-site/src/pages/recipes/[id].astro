@@ -1,0 +1,134 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipes');
+  const components = await getCollection('components');
+  return recipes.map((recipe) => ({
+    params: { id: recipe.id },
+    props: { recipe, components },
+  }));
+}
+
+const { recipe, components } = Astro.props;
+const { title, image, yield: recipeYield, preptime, cooktime, ingredients, directions, notes, components: componentNames, category } = recipe.data;
+const { Content } = await render(recipe);
+
+const linkedComponents = (componentNames ?? [])
+  .map((name) => components.find((c) => c.data.title === name))
+  .filter(Boolean);
+---
+<Layout title={title}>
+  <div class="container" itemscope itemtype="http://schema.org/Recipe" style="padding-top: 1.5rem;">
+    <img class="recipe-hero-image" itemprop="image" src={`/images/${image}`} alt={title} />
+
+    <h1 class="post-title" itemprop="name">{title}</h1>
+
+    <div class="recipe-meta-strip">
+      {recipeYield && (
+        <div class="recipe-meta-item" itemprop="yield">
+          <span class="recipe-meta-label">Servings</span>
+          <span class="recipe-meta-value">{recipeYield}</span>
+        </div>
+      )}
+      {preptime && (
+        <div class="recipe-meta-item">
+          <span class="recipe-meta-label">Prep Time</span>
+          <span class="recipe-meta-value">{preptime}</span>
+        </div>
+      )}
+      {cooktime && (
+        <div class="recipe-meta-item">
+          <span class="recipe-meta-label">Cooking Time</span>
+          <span class="recipe-meta-value">{cooktime}</span>
+        </div>
+      )}
+    </div>
+
+    <div class="recipe-columns">
+      {ingredients && ingredients.length > 0 && (
+        <div>
+          <h3>Ingredients</h3>
+          <div class="select-scale">
+            <select onchange="liveScaleRecipe.call(this, event)">
+              <option value="0.5">&frac12;</option>
+              <option selected value="1">1</option>
+              <option value="1.5">1 &frac12;</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <ul class="ingredients-list" itemprop="recipeIngredient">
+            {ingredients.map((ingredient) => (
+              <li data-ingredient-text={ingredient}>
+                <input type="checkbox" />
+                <span class="ingredient-label">{ingredient}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {directions && directions.length > 0 && (
+        <div>
+          <h3>Directions</h3>
+          <ul class="directions-list" itemprop="recipeInstructions">
+            {directions.map((direction) => (
+              <li>
+                <input type="checkbox" />
+                {direction}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+
+    {notes && notes.length > 0 && (
+      <div class="notes-section">
+        <h3>Notes</h3>
+        <ul class="notes-list">
+          {notes.map((note) => (
+            <li>
+              <input type="checkbox" />
+              {note}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {linkedComponents.length > 0 && (
+      <>
+        <div class="components-callout">
+          <strong>This is a component based recipe — follow all of the steps!</strong>
+        </div>
+        <div class="components-grid">
+          {linkedComponents.map((component) => (
+            <div class="component-card">
+              <h3>{component!.data.title}</h3>
+              <h4>Ingredients</h4>
+              <ul>
+                {component!.data.ingredients.map((item) => <li>{item}</li>)}
+              </ul>
+              <h4>Directions</h4>
+              <ul>
+                {component!.data.directions.map((item) => <li>{item}</li>)}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </>
+    )}
+
+    <Content />
+
+    {category && <p class="recipe-category">Category: <span itemprop="recipeCategory">{category}</span></p>}
+  </div>
+</Layout>
+
+<script src="/js/scale-recipes.js" is:inline></script>
+<script src="/js/checklist.js" is:inline></script>

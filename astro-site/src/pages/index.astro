@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const recipes = (await getCollection('recipes')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+<Layout>
+  <div class="recipes-grid">
+    {recipes.map((recipe) => (
+      <a class="recipe-card" href={`/recipes/${recipe.id}`}>
+        <div class="image" style={`background-image:url(/images/${recipe.data.image});`}></div>
+        <h1 class="title"><span class="title-text">{recipe.data.title}</span></h1>
+      </a>
+    ))}
+  </div>
+  <div class="page-intro">
+    <p>
+      This is a personal collection of recipes. Not all of these recipes are original, and the recipes
+      from other sites are ones that I pulled so I could make notes on them and keep them together in a
+      single collection.
+    </p>
+  </div>
+</Layout>

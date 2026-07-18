@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const recipes = await getCollection('recipes');
+const byCategory = new Map<string, typeof recipes>();
+for (const recipe of recipes) {
+  const list = byCategory.get(recipe.data.category) ?? [];
+  list.push(recipe);
+  byCategory.set(recipe.data.category, list);
+}
+const categories = [...byCategory.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+---
+<Layout title="Categories">
+  <div class="container" style="padding-top: 2rem;">
+    {categories.map(([category, items]) => (
+      <section style="margin-bottom: 2.5rem;">
+        <h2>{category}</h2>
+        <ul style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+          {items.map((recipe) => (
+            <li>
+              <a href={`/recipes/${recipe.id}`}>{recipe.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Layout>
