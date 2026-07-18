@@ -1,6 +1,8 @@
+// @vitest-environment jsdom
 import { describe, expect, it } from 'vitest';
 import {
   extractQuantity,
+  init,
   numberToPretty,
   quantityToNumber,
   scaleIngredient,
@@ -83,5 +85,38 @@ describe('scaleIngredient', () => {
 
   it('defaults to scale 1 when unspecified', () => {
     expect(scaleIngredient('Cup Sugar', '1 ')).toBe('1 Cup Sugar');
+  });
+});
+
+describe('init (Safari tab-restore regression)', () => {
+  function buildDom(selectValue: string) {
+    document.body.innerHTML = `
+      <div class="select-scale">
+        <select>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+      </div>
+      <ul>
+        <li data-ingredient-text="2 Cups Sugar"><span class="ingredient-label">2 Cups Sugar</span></li>
+      </ul>
+    `;
+    (document.querySelector('.select-scale select') as HTMLSelectElement).value = selectValue;
+  }
+
+  it('scales to whatever the select already shows, not a hardcoded 1', () => {
+    // Reproduces the reported bug: Safari on iOS silently restores a
+    // backgrounded tab's <select> value on reload (no change event fires)
+    // after purging it from memory, so init() can run for the first time
+    // with the select already showing "2".
+    buildDom('2');
+    init();
+    expect(document.querySelector('.ingredient-label')!.innerHTML).toBe('4 Cups Sugar');
+  });
+
+  it('still scales to 1 when the select is at its default', () => {
+    buildDom('1');
+    init();
+    expect(document.querySelector('.ingredient-label')!.innerHTML).toBe('2 Cups Sugar');
   });
 });

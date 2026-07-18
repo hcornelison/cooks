@@ -95,19 +95,27 @@ function scaleRecipe(scale = 1) {
   });
 }
 
+// Exported (rather than just run inline on DOMContentLoaded) so a test can
+// call it directly against a hand-built DOM without racing the real event.
+export function init() {
+  const select = document.querySelector('.select-scale select');
+  if (document.querySelector('li[data-ingredient-text]')) {
+    preprocessIngredients();
+    // Scale to whatever the <select> is actually showing, not a hardcoded 1.
+    // Safari on iOS silently restores form control values (without firing a
+    // change event) when it reloads a backgrounded tab it purged from memory,
+    // so the select can already read "2" the first time this runs.
+    scaleRecipe(select ? select.value : 1);
+  }
+  if (select) {
+    select.addEventListener('change', (event) => {
+      scaleRecipe(event.target.value);
+    });
+  }
+}
+
 // Guarded so the pure functions above can be imported and unit tested
 // outside a browser (e.g. Node/Vitest), where `document` doesn't exist.
 if (typeof document !== 'undefined') {
-  document.addEventListener('DOMContentLoaded', () => {
-    if (document.querySelector('li[data-ingredient-text]')) {
-      preprocessIngredients();
-      scaleRecipe(1);
-    }
-    const select = document.querySelector('.select-scale select');
-    if (select) {
-      select.addEventListener('change', (event) => {
-        scaleRecipe(event.target.value);
-      });
-    }
-  });
+  document.addEventListener('DOMContentLoaded', init);
 }
