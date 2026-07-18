@@ -1,7 +1,5 @@
 {
     "files.exclude": {
-        ".idea": true,
-        ".jekyll-cache": true,
-        "_site": true
+        ".idea": true
     }
 }
