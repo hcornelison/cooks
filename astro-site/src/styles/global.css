@@ -209,7 +209,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .recipe-columns > div { flex: 1 1 280px; }
 
-.recipe-columns h3, .notes-section h3 {
+.recipe-columns h3, .notes-section h3, .assembly-section h3 {
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -276,21 +276,47 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .select-scale select:focus { outline: none; border-color: var(--link-color); }
 
-.components-callout {
+.global-scale { justify-content: center; margin: 1.5rem 0; }
+
+/* Stacked recipe parts (component-based recipes) */
+.recipe-parts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.recipe-part {
   border-radius: 12px;
   background-color: var(--accent-color);
-  padding: 1rem;
-  margin: 2rem 0;
+  padding: 1.5rem 1.75rem;
+}
+.recipe-part-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
   text-align: center;
+  margin: 0 0 1rem;
 }
-.components-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
+.recipe-part-number {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--background-color);
+  background-color: var(--link-color);
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
 }
-.component-card { border-radius: 10px; background-color: var(--accent-color); padding: 1.25rem; }
-.component-card h3 { text-align: center; margin-top: 0; }
+.recipe-part .recipe-columns { margin-top: 0; }
+
+.assembly-section {
+  margin: 2rem 0;
+  border-top: 2px solid var(--accent-color);
+  padding-top: 1.5rem;
+}
 
 .recipe-category { text-align: center; color: var(--secondary-text-color); margin-top: 2rem; }
 

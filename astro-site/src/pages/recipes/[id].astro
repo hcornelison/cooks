@@ -15,9 +15,12 @@ const { recipe, components } = Astro.props;
 const { title, image, yield: recipeYield, preptime, cooktime, ingredients, directions, notes, components: componentNames, category } = recipe.data;
 const { Content } = await render(recipe);
 
-const linkedComponents = (componentNames ?? [])
+const parts = (componentNames ?? [])
   .map((name) => components.find((c) => c.data.title === name))
   .filter(Boolean);
+
+const hasScalableIngredients =
+  (ingredients && ingredients.length > 0) || parts.some((p) => p!.data.ingredients.length > 0);
 ---
 <Layout title={title}>
   <div class="container" itemscope itemtype="http://schema.org/Recipe" style="padding-top: 1.5rem;">
@@ -46,46 +49,118 @@ const linkedComponents = (componentNames ?? [])
       )}
     </div>
 
-    <div class="recipe-columns">
-      {ingredients && ingredients.length > 0 && (
-        <div>
-          <h3>Ingredients</h3>
-          <div class="select-scale">
-            <select onchange="liveScaleRecipe.call(this, event)">
-              <option value="0.5">&frac12;</option>
-              <option selected value="1">1</option>
-              <option value="1.5">1 &frac12;</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-            </select>
-          </div>
-          <ul class="ingredients-list" itemprop="recipeIngredient">
-            {ingredients.map((ingredient) => (
-              <li data-ingredient-text={ingredient}>
-                <input type="checkbox" />
-                <span class="ingredient-label">{ingredient}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+    {hasScalableIngredients && (
+      <div class="select-scale global-scale">
+        <select onchange="liveScaleRecipe.call(this, event)">
+          <option value="0.5">&frac12;</option>
+          <option selected value="1">1</option>
+          <option value="1.5">1 &frac12;</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+    )}
 
-      {directions && directions.length > 0 && (
-        <div>
-          <h3>Directions</h3>
-          <ul class="directions-list" itemprop="recipeInstructions">
-            {directions.map((direction) => (
-              <li>
-                <input type="checkbox" />
-                {direction}
-              </li>
-            ))}
-          </ul>
+    {parts.length === 0 ? (
+      <div class="recipe-columns">
+        {ingredients && ingredients.length > 0 && (
+          <div>
+            <h3>Ingredients</h3>
+            <ul class="ingredients-list" itemprop="recipeIngredient">
+              {ingredients.map((ingredient) => (
+                <li data-ingredient-text={ingredient}>
+                  <input type="checkbox" />
+                  <span class="ingredient-label">{ingredient}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {directions && directions.length > 0 && (
+          <div>
+            <h3>Directions</h3>
+            <ul class="directions-list" itemprop="recipeInstructions">
+              {directions.map((direction) => (
+                <li>
+                  <input type="checkbox" />
+                  {direction}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    ) : (
+      <>
+        {ingredients && ingredients.length > 0 && (
+          <div class="recipe-columns">
+            <div>
+              <h3>Ingredients</h3>
+              <ul class="ingredients-list" itemprop="recipeIngredient">
+                {ingredients.map((ingredient) => (
+                  <li data-ingredient-text={ingredient}>
+                    <input type="checkbox" />
+                    <span class="ingredient-label">{ingredient}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        )}
+
+        <div class="recipe-parts">
+          {parts.map((part, i) => (
+            <section class="recipe-part">
+              <h2 class="recipe-part-title">
+                <span class="recipe-part-number">Part {i + 1}</span>
+                {part!.data.title}
+              </h2>
+              <div class="recipe-columns">
+                <div>
+                  <h3>Ingredients</h3>
+                  <ul class="ingredients-list" itemprop="recipeIngredient">
+                    {part!.data.ingredients.map((ingredient) => (
+                      <li data-ingredient-text={ingredient}>
+                        <input type="checkbox" />
+                        <span class="ingredient-label">{ingredient}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3>Directions</h3>
+                  <ul class="directions-list">
+                    {part!.data.directions.map((direction) => (
+                      <li>
+                        <input type="checkbox" />
+                        {direction}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </section>
+          ))}
         </div>
-      )}
-    </div>
+
+        {directions && directions.length > 0 && (
+          <div class="assembly-section">
+            <h3>Assembly</h3>
+            <ul class="directions-list" itemprop="recipeInstructions">
+              {directions.map((direction) => (
+                <li>
+                  <input type="checkbox" />
+                  {direction}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </>
+    )}
 
     {notes && notes.length > 0 && (
       <div class="notes-section">
@@ -99,29 +174,6 @@ const linkedComponents = (componentNames ?? [])
           ))}
         </ul>
       </div>
-    )}
-
-    {linkedComponents.length > 0 && (
-      <>
-        <div class="components-callout">
-          <strong>This is a component based recipe — follow all of the steps!</strong>
-        </div>
-        <div class="components-grid">
-          {linkedComponents.map((component) => (
-            <div class="component-card">
-              <h3>{component!.data.title}</h3>
-              <h4>Ingredients</h4>
-              <ul>
-                {component!.data.ingredients.map((item) => <li>{item}</li>)}
-              </ul>
-              <h4>Directions</h4>
-              <ul>
-                {component!.data.directions.map((item) => <li>{item}</li>)}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </>
     )}
 
     <Content />
