@@ -2,22 +2,26 @@
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 
-const recipes = await getCollection('recipes');
-const byCategory = new Map<string, typeof recipes>();
-for (const recipe of recipes) {
-  const list = byCategory.get(recipe.data.category) ?? [];
-  list.push(recipe);
-  byCategory.set(recipe.data.category, list);
+const recipes = (await getCollection('recipes')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+function tagsOf(recipe: (typeof recipes)[number]) {
+  return recipe.data.tags.split(',').map((t) => t.trim()).filter(Boolean);
 }
-const categories = [...byCategory.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+
+const allTags = [...new Set(recipes.flatMap(tagsOf))].sort((a, b) => a.localeCompare(b));
+const byTag = allTags.map((tag) => ({
+  tag,
+  recipes: recipes.filter((recipe) => tagsOf(recipe).includes(tag)),
+}));
 ---
-<Layout title="Categories">
-  <div class="container" style="padding-top: 2rem;">
-    {categories.map(([category, items]) => (
-      <section style="margin-bottom: 2.5rem;">
-        <h2>{category}</h2>
-        <ul style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
-          {items.map((recipe) => (
+<Layout title="Categories" description="Recipes grouped by category.">
+  <div class="container tags-page">
+    <h1 class="page-title">Recipes Listed By Tag</h1>
+    {byTag.map(({ tag, recipes: tagged }) => (
+      <section class="tag-section">
+        <h2>{tag}</h2>
+        <ul class="tag-recipe-list">
+          {tagged.map((recipe) => (
             <li>
               <a href={`/recipes/${recipe.id}`}>{recipe.data.title}</a>
             </li>

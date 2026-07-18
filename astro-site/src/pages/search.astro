@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Search" description="Search recipes by title or ingredient.">
+  <div class="search-page">
+    <h1 class="page-title">Recipe Search</h1>
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Search titles or ingredients..." autocomplete="off" />
+    </div>
+  </div>
+  <div class="recipes-grid" id="search-results"></div>
+</Layout>
+
+<script src="/js/search.js" is:inline></script>
