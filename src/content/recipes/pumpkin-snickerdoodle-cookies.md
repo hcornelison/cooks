@@ -1,8 +1,8 @@
 ---
 title: Pumpkin Snickerdoodle Cookies
 image: pumpkin-snickerdoodle-cookies.png
-tags: Dessert
-category: Dessert
+tags: Dessert, Cookies
+category: Dessert, Cookies
 preptime: 30 Minutes
 yield: 28 Cookies
 

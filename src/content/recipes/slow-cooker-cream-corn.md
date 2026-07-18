@@ -1,8 +1,8 @@
 ---
 title: Slow Cooker Cream Corn
 image: slow-cooker-cream-corn.png
-tags: Side
-category: Side
+tags: Side Dish
+category: Side Dish
 
 preptime: 10 Minutes
 cooktime: 3 Hours

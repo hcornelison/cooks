@@ -1,8 +1,8 @@
 ---
 title: Deviled Eggs
 image: deviled-eggs.jpg
-tags: Appetizers
-category: Appetizers
+tags: Appetizers, Side Dish
+category: Appetizers, Side Dish
 
 yield: 12 eggs
 

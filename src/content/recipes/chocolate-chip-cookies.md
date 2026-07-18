@@ -1,8 +1,8 @@
 ---
 title: Chocolate Chip Cookies
 image: chocolate-chip-cookies.png
-tags: Dessert
-category: Dessert
+tags: Dessert, Cookies
+category: Dessert, Cookies
 
 yield: About 4 Dozen Cookies
 
