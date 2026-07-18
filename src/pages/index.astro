@@ -5,11 +5,23 @@ import Layout from '../layouts/Layout.astro';
 import { getRecipeImage } from '../utils/images';
 
 const recipes = (await getCollection('recipes')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+function tagsOf(recipe: (typeof recipes)[number]) {
+  return recipe.data.tags.split(',').map((t) => t.trim()).filter(Boolean);
+}
+
+const allTags = [...new Set(recipes.flatMap(tagsOf))].sort((a, b) => a.localeCompare(b));
 ---
 <Layout>
-  <div class="recipes-grid">
+  <div class="tag-filter-bar" role="group" aria-label="Filter recipes by category">
+    <button type="button" class="tag-filter-btn active" data-tag="all" aria-pressed="true">All</button>
+    {allTags.map((tag) => (
+      <button type="button" class="tag-filter-btn" data-tag={tag} aria-pressed="false">{tag}</button>
+    ))}
+  </div>
+  <div class="recipes-grid" id="recipes-grid">
     {recipes.map((recipe) => (
-      <a class="recipe-card" href={`/recipes/${recipe.id}`}>
+      <a class="recipe-card" href={`/recipes/${recipe.id}`} data-tags={tagsOf(recipe).join(',')}>
         <div class="card-image-wrap">
           <Image
             src={getRecipeImage(recipe.data.image)}
@@ -24,6 +36,7 @@ const recipes = (await getCollection('recipes')).sort((a, b) => a.data.title.loc
       </a>
     ))}
   </div>
+  <p class="filter-empty-state" id="filter-empty-state" hidden>No recipes match that category yet.</p>
   <div class="page-intro">
     <p>
       This is a personal collection of recipes. Not all of these recipes are original, and the recipes
@@ -32,3 +45,5 @@ const recipes = (await getCollection('recipes')).sort((a, b) => a.data.title.loc
     </p>
   </div>
 </Layout>
+
+<script src="/js/tag-filter.js" is:inline></script>
