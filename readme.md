@@ -10,3 +10,14 @@ I then found this beautiful fork
 
 Then I borrowed from heavily and turned into 
 [https://recipes.hcornelison.dev/](https://recipes.hcornelison.dev/)
+
+Originally a Jekyll site, now built with [Astro](https://astro.build).
+
+## Development
+
+| Command           | Action                                      |
+| :----------------- | :------------------------------------------ |
+| `npm install`       | Install dependencies                         |
+| `npm run dev`       | Start the local dev server at `localhost:4321` |
+| `npm run build`     | Build the production site to `./dist/`       |
+| `npm run preview`   | Preview the build locally before deploying   |

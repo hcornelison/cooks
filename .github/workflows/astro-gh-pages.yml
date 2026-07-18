@@ -1,4 +1,4 @@
-# Builds the Astro site (astro-site/) and deploys it to GitHub Pages
+# Builds the Astro site and deploys it to GitHub Pages
 name: Deploy Astro site to GitHub Pages
 
 on:
@@ -25,9 +25,6 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: astro-site
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,7 +35,6 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: astro-site/package-lock.json
       - name: Install dependencies
         run: npm ci
       - name: Build with Astro
@@ -46,7 +42,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: astro-site/dist
+          path: dist
 
   # Deployment job
   deploy:
