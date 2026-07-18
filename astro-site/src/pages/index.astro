@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+import { getRecipeImage } from '../utils/images';
 
 const recipes = (await getCollection('recipes')).sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
@@ -8,7 +10,16 @@ const recipes = (await getCollection('recipes')).sort((a, b) => a.data.title.loc
   <div class="recipes-grid">
     {recipes.map((recipe) => (
       <a class="recipe-card" href={`/recipes/${recipe.id}`}>
-        <div class="image" style={`background-image:url(/images/${recipe.data.image});`}></div>
+        <div class="card-image-wrap">
+          <Image
+            src={getRecipeImage(recipe.data.image)}
+            alt={recipe.data.title}
+            width={500}
+            format="webp"
+            quality={75}
+            class="card-image"
+          />
+        </div>
         <h1 class="title"><span class="title-text">{recipe.data.title}</span></h1>
       </a>
     ))}

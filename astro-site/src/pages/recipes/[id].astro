@@ -1,7 +1,9 @@
 ---
 import { getCollection, render } from 'astro:content';
+import { Image } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
 import { renderInline } from '../../utils/markdown';
+import { getRecipeImage } from '../../utils/images';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -25,7 +27,16 @@ const hasScalableIngredients =
 ---
 <Layout title={title}>
   <div class="container" itemscope itemtype="http://schema.org/Recipe" style="padding-top: 1.5rem;">
-    <img class="recipe-hero-image" itemprop="image" src={`/images/${image}`} alt={title} />
+    <Image
+      class="recipe-hero-image"
+      itemprop="image"
+      src={getRecipeImage(image)}
+      alt={title}
+      width={1000}
+      format="webp"
+      quality={80}
+      loading="eager"
+    />
 
     <h1 class="post-title" itemprop="name">{title}</h1>
 

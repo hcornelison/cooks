@@ -11,13 +11,21 @@ document.addEventListener('DOMContentLoaded', () => {
       recipes = data;
     });
 
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
   function render(matches) {
     results.innerHTML = matches
       .map(
         (recipe) => `
           <a class="recipe-card" href="${recipe.url}">
-            <div class="image" style="background-image:url(${recipe.image});"></div>
-            <h1 class="title"><span class="title-text">${recipe.title}</span></h1>
+            <div class="card-image-wrap">
+              <img src="${recipe.image}" alt="${escapeHtml(recipe.title)}" loading="lazy" />
+            </div>
+            <h1 class="title"><span class="title-text">${escapeHtml(recipe.title)}</span></h1>
           </a>
         `,
       )
