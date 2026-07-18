@@ -155,6 +155,41 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .tag-recipe-list a:hover { color: var(--link-color); }
 
+/* Tag filter bar (homepage) */
+.tag-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1.5rem 1rem 0;
+  max-width: 72em;
+  margin: 0 auto;
+}
+.tag-filter-btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.5rem 1.1rem;
+  border-radius: 20px;
+  border: 2px solid var(--accent-color);
+  background-color: transparent;
+  color: var(--primary-text-color);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.tag-filter-btn:hover { border-color: var(--link-color); }
+.tag-filter-btn.active {
+  background-color: var(--link-color);
+  border-color: var(--link-color);
+  color: var(--background-color);
+}
+.recipe-card.is-hidden { display: none; }
+.filter-empty-state {
+  text-align: center;
+  color: var(--secondary-text-color);
+  padding: 2rem 1rem;
+}
+
 /* Recipe grid (homepage) */
 .recipes-grid {
   display: grid;
@@ -410,6 +445,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .recipe-hero-image,
   .card-image-wrap,
   .recipes-grid,
+  .tag-filter-bar,
   .search,
   .page-intro {
     display: none !important;
