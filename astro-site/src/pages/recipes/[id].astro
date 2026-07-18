@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import { renderInline } from '../../utils/markdown';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -86,7 +87,7 @@ const hasScalableIngredients =
               {directions.map((direction) => (
                 <li>
                   <input type="checkbox" />
-                  {direction}
+                  <span set:html={renderInline(direction)} />
                 </li>
               ))}
             </ul>
@@ -136,7 +137,7 @@ const hasScalableIngredients =
                     {part!.data.directions.map((direction) => (
                       <li>
                         <input type="checkbox" />
-                        {direction}
+                        <span set:html={renderInline(direction)} />
                       </li>
                     ))}
                   </ul>
@@ -153,7 +154,7 @@ const hasScalableIngredients =
               {directions.map((direction) => (
                 <li>
                   <input type="checkbox" />
-                  {direction}
+                  <span set:html={renderInline(direction)} />
                 </li>
               ))}
             </ul>
@@ -169,7 +170,7 @@ const hasScalableIngredients =
           {notes.map((note) => (
             <li>
               <input type="checkbox" />
-              {note}
+              <span set:html={renderInline(note)} />
             </li>
           ))}
         </ul>
