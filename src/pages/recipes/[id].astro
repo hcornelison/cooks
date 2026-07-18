@@ -63,7 +63,7 @@ const hasScalableIngredients =
 
     {hasScalableIngredients && (
       <div class="select-scale global-scale">
-        <select onchange="liveScaleRecipe.call(this, event)">
+        <select>
           <option value="0.5">&frac12;</option>
           <option selected value="1">1</option>
           <option value="1.5">1 &frac12;</option>
@@ -194,5 +194,5 @@ const hasScalableIngredients =
   </div>
 </Layout>
 
-<script src="/js/scale-recipes.js" is:inline></script>
+<script src="/js/scale-recipes.js" type="module"></script>
 <script src="/js/checklist.js" is:inline></script>

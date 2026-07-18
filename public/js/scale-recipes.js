@@ -1,7 +1,7 @@
 // Thank you to https://github.com/PhilipNelson5 for the awesome script!
 'use strict';
 
-function toNumber(inString) {
+export function toNumber(inString) {
   let result;
   if (inString.includes('/')) {
     let z = inString.split('/');
@@ -12,14 +12,14 @@ function toNumber(inString) {
   return result;
 }
 
-function quantityToNumber(inString) {
+export function quantityToNumber(inString) {
   let valueArray = inString.split(/\s/g);
   valueArray = valueArray.map((item) => toNumber(item));
   let theTotal = valueArray.reduce((a, b) => a + b);
   return theTotal;
 }
 
-function numberToPretty(inNum) {
+export function numberToPretty(inNum) {
   let wholeNumber;
   if (inNum < 1) {
     wholeNumber = '';
@@ -58,12 +58,12 @@ function numberToPretty(inNum) {
   return wholeNumber + fracRep;
 }
 
-function extractQuantity(ingredient) {
+export function extractQuantity(ingredient) {
   let reMatch = ingredient.match(/^\d[/\d\s.]*\s/i);
   return reMatch === null ? '' : reMatch[0];
 }
 
-function scaleIngredient(bareIngredient, quantity, scale = 1) {
+export function scaleIngredient(bareIngredient, quantity, scale = 1) {
   if (quantity === '') {
     return bareIngredient;
   }
@@ -95,13 +95,19 @@ function scaleRecipe(scale = 1) {
   });
 }
 
-function liveScaleRecipe(event) {
-  scaleRecipe(this.options[this.selectedIndex].value);
+// Guarded so the pure functions above can be imported and unit tested
+// outside a browser (e.g. Node/Vitest), where `document` doesn't exist.
+if (typeof document !== 'undefined') {
+  document.addEventListener('DOMContentLoaded', () => {
+    if (document.querySelector('li[data-ingredient-text]')) {
+      preprocessIngredients();
+      scaleRecipe(1);
+    }
+    const select = document.querySelector('.select-scale select');
+    if (select) {
+      select.addEventListener('change', (event) => {
+        scaleRecipe(event.target.value);
+      });
+    }
+  });
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-  if (document.querySelector('li[data-ingredient-text]')) {
-    preprocessIngredients();
-    scaleRecipe(1);
-  }
-});
