@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const recipes = (await getCollection('recipes')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+function tagsOf(recipe: (typeof recipes)[number]) {
+  return recipe.data.tags.split(',').map((t) => t.trim()).filter(Boolean);
+}
+
+const allTags = [...new Set(recipes.flatMap(tagsOf))].sort((a, b) => a.localeCompare(b));
+const byTag = allTags.map((tag) => ({
+  tag,
+  recipes: recipes.filter((recipe) => tagsOf(recipe).includes(tag)),
+}));
+---
+<Layout title="Categories" description="Recipes grouped by category.">
+  <div class="container tags-page">
+    <h1 class="page-title">Recipes Listed By Tag</h1>
+    {byTag.map(({ tag, recipes: tagged }) => (
+      <section class="tag-section">
+        <h2>{tag}</h2>
+        <ul class="tag-recipe-list">
+          {tagged.map((recipe) => (
+            <li>
+              <a href={`/recipes/${recipe.id}`}>{recipe.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Layout>
