@@ -375,6 +375,34 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .global-scale { justify-content: center; margin: 1.5rem 0; }
 
+/* Full ingredient list (shopping-list view for component recipes) */
+.full-ingredient-list {
+  margin: 1.5rem 0;
+  border: 2px solid var(--accent-color);
+  border-radius: 10px;
+  padding: 0.25rem 1.25rem;
+}
+.full-ingredient-list summary {
+  padding: 0.85rem 0;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+.full-ingredient-list[open] summary { border-bottom: 2px solid var(--accent-color); }
+.full-ingredient-group { padding: 1.25rem 0; }
+.full-ingredient-group:not(:last-child) { border-bottom: 1px solid var(--accent-color); }
+.full-ingredient-group h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+  margin: 0 0 0.75rem;
+}
+
 /* Stacked recipe parts (component-based recipes) */
 .recipe-parts {
   display: flex;
@@ -446,6 +474,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .card-image-wrap,
   .recipes-grid,
   .tag-filter-bar,
+  .full-ingredient-list,
   .search,
   .page-intro {
     display: none !important;
