@@ -27,7 +27,8 @@ test('Clear Checks unchecks everything and the cleared state survives a reload',
 
   await page.locator('.ingredients-list li input[type="checkbox"]').first().check();
   await page.locator('.directions-list li input[type="checkbox"]').first().check();
-  await expect(checkedItems).toHaveCount(2);
+  await page.locator('.notes-list li input[type="checkbox"]').first().check();
+  await expect(checkedItems).toHaveCount(3);
 
   await page.getByRole('button', { name: 'Clear Checks' }).click();
   await expect(checkedItems).toHaveCount(0);
@@ -51,4 +52,15 @@ test('shopping-list and per-part checkboxes for the same ingredient are independ
   await shoppingListSalt.check();
   await expect(shoppingListSalt).toBeChecked();
   await expect(perPartSalt).not.toBeChecked();
+});
+
+test('checked state is isolated per recipe', async ({ page }) => {
+  await page.goto('/recipes/banana-nut-bread');
+  await page.locator('.ingredients-list li input[type="checkbox"]').first().check();
+
+  await page.goto('/recipes/butter-cream-frosting');
+  await expect(page.locator('.ingredients-list li input[type="checkbox"]').first()).not.toBeChecked();
+
+  await page.goto('/recipes/banana-nut-bread');
+  await expect(page.locator('.ingredients-list li input[type="checkbox"]').first()).toBeChecked();
 });
