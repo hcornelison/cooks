@@ -84,4 +84,45 @@ describe('init (checklist persistence)', () => {
     document.body.innerHTML = '<p>No lists here</p>';
     expect(() => init()).not.toThrow();
   });
+
+  describe('reset button', () => {
+    function addResetButton() {
+      const button = document.createElement('button');
+      button.id = 'checklist-reset';
+      button.hidden = true;
+      document.body.appendChild(button);
+      return button;
+    }
+
+    it('unhides the reset button when there are checklist items', () => {
+      buildDom();
+      const button = addResetButton();
+      init();
+      expect(button.hidden).toBe(false);
+    });
+
+    it('leaves the reset button hidden when there are no checklist items', () => {
+      document.body.innerHTML = '<p>No lists here</p>';
+      const button = addResetButton();
+      init();
+      expect(button.hidden).toBe(true);
+    });
+
+    it('unchecks every item and clears storage on click', () => {
+      buildDom();
+      const button = addResetButton();
+      init();
+      const checkboxes = document.querySelectorAll<HTMLInputElement>('input[type="checkbox"]');
+      checkboxes.forEach((checkbox) => {
+        checkbox.checked = true;
+        checkbox.dispatchEvent(new Event('change', { bubbles: true }));
+      });
+      expect(localStorage.getItem(storageKey())).not.toBeNull();
+
+      button.click();
+
+      checkboxes.forEach((checkbox) => expect(checkbox.checked).toBe(false));
+      expect(localStorage.getItem(storageKey())).toBeNull();
+    });
+  });
 });
