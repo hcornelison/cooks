@@ -5,6 +5,8 @@ export function init() {
     .map((li) => ({ li, checkbox: li.querySelector('input[type="checkbox"]') }))
     .filter((item) => item.checkbox);
 
+  const resetButton = document.getElementById('checklist-reset');
+
   if (!items.length) return;
 
   // Keyed by path so each recipe persists independently. Keyed by position
@@ -44,6 +46,20 @@ export function init() {
     });
     checkbox.addEventListener('change', saveCheckedIndices);
   });
+
+  if (resetButton) {
+    resetButton.hidden = false;
+    resetButton.addEventListener('click', () => {
+      items.forEach(({ checkbox }) => {
+        checkbox.checked = false;
+      });
+      try {
+        localStorage.removeItem(storageKey);
+      } catch {
+        // Ignore write failures (private browsing, quota, storage disabled, etc.)
+      }
+    });
+  }
 }
 
 // Guarded so this can be imported and unit tested outside a browser (e.g.
