@@ -30,3 +30,27 @@ test('filtering by tag shows only matching recipes, and All restores the full gr
   await allTag.click();
   await expect(page.locator('.recipe-card:not(.is-hidden)')).toHaveCount(totalCount);
 });
+
+test('clicking a recipe card navigates to its recipe page', async ({ page }) => {
+  await page.goto('/');
+  const card = page.locator('.recipe-card', { hasText: "Heath's Banana Nut Bread" });
+
+  await card.click();
+  await expect(page).toHaveURL(/\/recipes\/banana-nut-bread\/?$/);
+  await expect(page.locator('h1.post-title')).toHaveText("Heath's Banana Nut Bread");
+});
+
+test('tag filter buttons can be activated from the keyboard', async ({ page }) => {
+  await page.goto('/');
+  const breadsTag = page.locator('.tag-filter-btn', { hasText: 'Breads' });
+
+  await breadsTag.focus();
+  await page.keyboard.press('Enter');
+  await expect(breadsTag).toHaveAttribute('aria-pressed', 'true');
+
+  const allTag = page.locator('.tag-filter-btn', { hasText: 'All' });
+  await allTag.focus();
+  await page.keyboard.press(' ');
+  await expect(allTag).toHaveAttribute('aria-pressed', 'true');
+  await expect(breadsTag).toHaveAttribute('aria-pressed', 'false');
+});
