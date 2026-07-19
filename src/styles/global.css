@@ -375,6 +375,30 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .global-scale { justify-content: center; margin: 1.5rem 0; }
 
+/* Wake lock toggle */
+.wake-lock-row { display: flex; justify-content: center; margin: 0 0 1.5rem; }
+.wake-lock-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.5rem 1.1rem;
+  border-radius: 20px;
+  border: 2px solid var(--accent-color);
+  background-color: transparent;
+  color: var(--primary-text-color);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.wake-lock-toggle:hover { border-color: var(--link-color); }
+.wake-lock-toggle.active {
+  background-color: var(--link-color);
+  border-color: var(--link-color);
+  color: var(--background-color);
+}
+
 /* Full ingredient list (shopping-list view for component recipes) */
 .full-ingredient-list {
   margin: 1.5rem 0;
@@ -475,6 +499,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .recipes-grid,
   .tag-filter-bar,
   .full-ingredient-list,
+  .wake-lock-row,
   .search,
   .page-intro {
     display: none !important;
