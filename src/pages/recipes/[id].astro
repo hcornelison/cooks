@@ -75,6 +75,13 @@ const hasScalableIngredients =
       </div>
     )}
 
+    <div class="wake-lock-row">
+      <button type="button" id="wake-lock-toggle" class="wake-lock-toggle" aria-pressed="false" hidden>
+        <span aria-hidden="true">☀️</span>
+        <span class="wake-lock-label">Keep Screen Awake</span>
+      </button>
+    </div>
+
     {parts.length > 0 && (
       <details class="full-ingredient-list">
         <summary>View full ingredient list</summary>
@@ -228,3 +235,4 @@ const hasScalableIngredients =
 
 <script src="/js/scale-recipes.js" type="module"></script>
 <script src="/js/checklist.js" type="module"></script>
+<script src="/js/wake-lock.js" is:inline></script>
