@@ -7,6 +7,7 @@ dist/
 /test-results/
 /playwright-report/
 /playwright/.cache/
+/e2e-results.json
 
 # dependencies
 node_modules/
