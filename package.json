@@ -17,7 +17,7 @@
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^7.2.8",
-    "marked": "^18.0.6"
+    "marked": "^18.0.14"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",
