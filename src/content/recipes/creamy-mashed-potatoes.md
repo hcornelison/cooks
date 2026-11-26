@@ -1,5 +1,5 @@
 ---
-title: Creamy Mashed Potatoes
+title: Make Ahead Mashed Potatoes
 image: creamy-mashed-potatoes.jpg
 tags: Side Dish
 category: Side Dish
