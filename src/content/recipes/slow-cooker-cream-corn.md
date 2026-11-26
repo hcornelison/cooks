@@ -27,5 +27,6 @@ directions:
 
 notes:
 - Use a crock-pot liner stupid!
+- Use big crock pot for double batch
 
 ---
